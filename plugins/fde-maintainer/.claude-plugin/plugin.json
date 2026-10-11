@@ -1,0 +1,11 @@
+{
+  "name": "fde-maintainer",
+  "version": "1.0.0",
+  "description": "Keeps the Forward Deployed ML Engineer Zero-to-Hired curriculum current: refreshes job-market evidence, audits resources, regenerates phase and capstone pages, and prepares changelog entries.",
+  "author": {
+    "name": "Sunday Ayandele",
+    "email": "sundayayandele@gmail.com"
+  },
+  "license": "CC-BY-SA-4.0",
+  "keywords": ["curriculum", "forward-deployed-engineer", "maintenance", "llm"]
+}
