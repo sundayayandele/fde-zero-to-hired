@@ -1,0 +1,56 @@
+name: Monthly refresh reminder
+
+# On the 1st of each month: check every external link, then open an issue
+# with the report and the refresh checklist. Run it any time from the Actions tab.
+on:
+  schedule:
+    - cron: "0 7 1 * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check external links
+        id: links
+        run: |
+          set +e
+          python scripts/check_links.py --external > link-report.txt 2>&1
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          cat link-report.txt
+
+      - name: Open the monthly refresh issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          month=$(date -u +"%B %Y")
+          last=$(grep -m1 -o 'Last reviewed: [0-9-]*' CURRICULUM.md || echo "Last reviewed: unknown")
+          {
+            echo "Time for the monthly curriculum refresh. Current status: **${last}**."
+            echo
+            echo "## Checklist"
+            echo
+            echo "- [ ] Open the repo in Claude Code and run \`/fde-maintainer:monthly-refresh\`"
+            echo "- [ ] Market table refreshed with verified postings"
+            echo "- [ ] Dead links fixed (see report below)"
+            echo "- [ ] Resources and tool names checked"
+            echo "- [ ] CHANGELOG.md updated, version chosen"
+            echo "- [ ] Committed and pushed from GitHub Desktop"
+            echo
+            echo "## External link report"
+            echo
+            echo '```'
+            tail -n 60 link-report.txt
+            echo '```'
+          } > body.md
+          gh label create maintenance --color 0E8A16 --description "Repo upkeep" 2>/dev/null || true
+          gh issue create --title "Monthly refresh: ${month}" --body-file body.md --label maintenance
