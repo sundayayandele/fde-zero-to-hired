@@ -1,0 +1,31 @@
+{
+  "extraKnownMarketplaces": {
+    "fde-zero-to-hired": {
+      "source": {
+        "source": "github",
+        "repo": "sundayayandele/fde-zero-to-hired"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "fde-maintainer@fde-zero-to-hired": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/build.py:*)",
+      "Bash(python3 scripts/build.py:*)",
+      "Bash(python scripts/check_repo.py:*)",
+      "Bash(python3 scripts/check_repo.py:*)",
+      "Bash(python scripts/check_links.py:*)",
+      "Bash(python3 scripts/check_links.py:*)",
+      "Bash(git diff:*)",
+      "Bash(git status:*)",
+      "WebSearch"
+    ],
+    "deny": [
+      "Bash(git push:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
