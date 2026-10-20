@@ -60,7 +60,7 @@ Edit `CURRICULUM.md`, then run `python scripts/build.py` and `python scripts/che
 
 ## Track your progress
 
-Fork this repo, then open a **Weekly progress** issue each week and a **Capstone submission** issue for each capstone (see `.github/ISSUE_TEMPLATE`). Score each capstone with the [rubric](docs/rubric.md).
+Click Use this template → Create a new repository, then open a **Weekly progress** issue each week and a **Capstone submission** issue for each capstone (see `.github/ISSUE_TEMPLATE`). Score each capstone with the [rubric](docs/rubric.md).
 
 ## Author
 
