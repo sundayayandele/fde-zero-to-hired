@@ -1,1 +1,8 @@
-#TBC
+blank_issues_enabled: true
+contact_links:
+  - name: Ask a question or share your progress
+    url: https://github.com/sundayayandele/fde-zero-to-hired/discussions
+    about: Questions about the curriculum, study partners, and showing off finished capstones.
+  - name: Suggest a correction or a new resource
+    url: https://github.com/sundayayandele/fde-zero-to-hired/blob/main/CONTRIBUTING.md
+    about: Read the contributing guide first. Small fixes can go straight to a pull request.
