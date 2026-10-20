@@ -1,0 +1,16 @@
+{
+  "name": "fde-zero-to-hired",
+  "description": "Maintenance tooling for the Forward Deployed ML Engineer Zero-to-Hired curriculum.",
+  "owner": {
+    "name": "Sunday Ayandele",
+    "email": "sundayayandele@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "fde-maintainer",
+      "source": "./plugins/fde-maintainer",
+      "description": "Maintenance skills, agents, commands and hooks for the Forward Deployed ML Engineer Zero-to-Hired curriculum.",
+      "version": "1.0.0"
+    }
+  ]
+}
