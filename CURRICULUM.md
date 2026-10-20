@@ -294,13 +294,8 @@ Score every capstone on five criteria from 1 to 4; a capstone passes at 14 of 20
 ## Sources
 
 Postings were read in October 2026; several were already closed and are cited as evidence of requirements, not as open roles.
-
-- [Mistral AI: Applied AI, Forward Deployed ML Engineer (EMEA)](https://jobs.lever.co/mistral/77f6fd1b-65cf-45d8-9b68-594c62732f62)
-- [Mistral AI: Senior/Staff Forward Deployed ML Engineer](https://jobs.lever.co/mistral/fbd01aee-5831-48f0-984d-abbce728a2c5)
-- [Mistral AI: Technical Lead, Forward Deployed AI Engineer (EMEA)](https://jobs.lever.co/mistral/e2cf255f-49c8-4630-afe0-7f665f51f01f)
 - [Reflection AI: FDE, LLM Post-training](https://jobright.ai/jobs/info/69e81b5b0a6e09555302e5e5)
 - [Modal: Forward Deployed Engineer, ML](https://seedtable.com/jobs/33412)
-- [Hugging Face: Cloud Machine Learning Engineer](https://startup.jobs/cloud-machine-learning-engineer-us-remote-hugging-face-3935595)
 - [OpenAI: Forward Deployed Engineer, Abu Dhabi](https://www.remotedxb.com/job/forward-deployed-engineer-openai--407934)
 - [Anthropic: FDE, Applied AI (UK)](https://agentic-engineering-jobs.com/jobs/anthropic-forward-deployed-engineer-applied-ai-uk-yiEH3A)
 - [Anthropic: FDE, Applied AI (Germany)](https://agentic-engineering-jobs.com/jobs/anthropic-forward-deployed-engineer-applied-ai-germany-ZFxC2Z)
