@@ -5,6 +5,9 @@ All notable changes to the curriculum. Versions follow semantic versioning for c
 
 ## [Unreleased]
 
+### Fixed
+- Replaced closed Mistral AI postings with Wayback Machine archives; marked Cornerstone as closed with no archive.
+
 ## [1.0.0] - 2026-10-11
 
 ### Market
