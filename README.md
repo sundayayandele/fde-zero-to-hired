@@ -60,7 +60,17 @@ Edit `CURRICULUM.md`, then run `python scripts/build.py` and `python scripts/che
 
 ## Track your progress
 
-Click Use this template → Create a new repository, then open a **Weekly progress** issue each week and a **Capstone submission** issue for each capstone (see `.github/ISSUE_TEMPLATE`). Score each capstone with the [rubric](docs/rubric.md).
+1. Click **Use this template → Create a new repository** at the top of this page. Make it public if you want recruiters to see your progress.
+2. In your new repo, go to **Issues → Labels → New label** and create these two labels. Templates don't copy labels, so you need to add them once:
+
+   | Label name | Description | Colour |
+   | --- | --- | --- |
+   | `progress` | Weekly learning log | `#1D76DB` |
+   | `capstone` | Capstone submission for rubric review | `#5319E7` |
+
+   Use the names exactly as shown (lowercase). The issue templates apply them automatically.
+3. Each week, open **Issues → New issue → Weekly progress**.
+4. For each finished capstone, open **Issues → New issue → Capstone submission** and score it with the [rubric](docs/rubric.md).
 
 ## Author
 
