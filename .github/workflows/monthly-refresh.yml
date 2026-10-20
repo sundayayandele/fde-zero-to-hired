@@ -13,6 +13,7 @@ permissions:
 
 jobs:
   remind:
+    if: github.repository == 'sundayayandele/fde-zero-to-hired'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
