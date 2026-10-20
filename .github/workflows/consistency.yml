@@ -20,5 +20,3 @@ jobs:
           python-version: "3.12"
       - name: Generated files match CURRICULUM.md and links resolve
         run: python scripts/check_repo.py
-  remind:
-    if: github.repository == 'sundayayandele/fde-zero-to-hired'
