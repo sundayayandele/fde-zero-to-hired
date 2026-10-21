@@ -8,8 +8,8 @@ Across 15 public FDE postings reviewed in October 2026, every role asks for the 
 
 | Company | Role | Family | Signature requirements | Experience |
 | --- | --- | --- | --- | --- |
-| [Mistral AI](https://jobs.lever.co/mistral/77f6fd1b-65cf-45d8-9b68-594c62732f62) | Applied AI, Forward Deployed ML Engineer (EMEA) | ML-heavy | Fine-tuning, advanced RAG or agents, PyTorch, open-source LLM contributions, pre-sales | 2+ yrs IC |
-| [Mistral AI](https://jobs.lever.co/mistral/fbd01aee-5831-48f0-984d-abbce728a2c5) | Senior/Staff Forward Deployed ML Engineer | ML-heavy | Same core plus products at large user scale | 7–10+ yrs |
+| [Mistral AI](https://web.archive.org/web/20260610125252/https://jobs.lever.co/mistral/77f6fd1b-65cf-45d8-9b68-594c62732f62) | Applied AI, Forward Deployed ML Engineer (EMEA) | ML-heavy | Fine-tuning, advanced RAG or agents, PyTorch, open-source LLM contributions, pre-sales | 2+ yrs IC |
+| [Mistral AI](https://web.archive.org/web/20251124002401/https://jobs.lever.co/mistral/fbd01aee-5831-48f0-984d-abbce728a2c5) | Senior/Staff Forward Deployed ML Engineer | ML-heavy | Same core plus products at large user scale | 7–10+ yrs |
 | [Reflection AI](https://jobright.ai/jobs/info/69e81b5b0a6e09555302e5e5) | FDE, LLM Post-training | ML-heavy | SFT, preference optimization, RL fine-tuning, eval suites, cloud/VPC/on-prem deploys | Shipped a fine-tuned model |
 | [Modal](https://seedtable.com/jobs/33412) | Forward Deployed Engineer, ML | ML-heavy | vLLM/SGLang serving, TRL/verl training, GPU work, open-source | 2+ yrs ML eng |
 | [Hugging Face](https://startup.jobs/cloud-machine-learning-engineer-us-remote-hugging-face-3935595) | Cloud ML Engineer | ML-heavy | Transformers, PEFT, Accelerate, PyTorch, cloud ML, Docker | Not stated |
@@ -22,7 +22,7 @@ Across 15 public FDE postings reviewed in October 2026, every role asks for the 
 | [Cohere](https://www.remotedxb.com/job/forward-deployed-engineer-agentic-platform-cohere-3) | FDE, Agentic Platform | Platform / private deploy | RAG and agents, private/on-prem deployment, cloud networking | Mid–senior |
 | [Scale AI](https://jobs.accel.com/companies/scale-ai/jobs/85425637-sr-staff-ml-forward-deployed-engineer-enterprise-genai) | Sr Staff ML FDE, Enterprise GenAI | Platform / private deploy | LLMs, vector DBs, Kubernetes, cloud, Python/TS + SQL | 7+ yrs |
 | [Palantir](https://jobs.lever.co/palantir/bf718bd3-b2ef-451e-8033-cb4d2d9c094b) | Forward Deployed Software Engineer (Warsaw) | Classic data FDSE | Data-driven solutions, custom web apps, executive meetings, clearance | Graduate-friendly |
-| [Cornerstone](https://jobs.institutedata.com/job/5039353/forward-deployment-engineer-united-states/) | Forward Deployment Engineer | API / agent | GenAI and agentic integrations, scripts and APIs | 1–2 yrs |
+| Cornerstone (closed) | Forward Deployment Engineer | API / agent | GenAI and agentic integrations, scripts and APIs | 1–2 yrs |
 
 **What this means for the curriculum**
 

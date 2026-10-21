@@ -4,7 +4,7 @@ A 36-week, project-based curriculum that takes you from basic programming to a h
 
 Every phase ends in a capstone that produces the evidence FDE hiring loops actually check: shipped code, eval numbers, a private deployment and a customer-style write-up.
 
-**Last reviewed:** 2026-10-11 · [Changelog](CHANGELOG.md) · Market evidence is refreshed monthly.
+**Last reviewed:** 2026-10-21 · [Changelog](CHANGELOG.md) · Market evidence is refreshed monthly.
 
 ![Curriculum roadmap: 8 phases, 5 capstones](assets/roadmap.png)
 
