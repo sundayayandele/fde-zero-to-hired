@@ -14,6 +14,8 @@ The goal is to prove with numbers whether an LLM system works, and to catch regr
 
 **Resources:** Hamel Husain's writing on LLM evals; RAGAS and DeepEval docs; OWASP Top 10 for LLM Applications.
 
+**Code:** start with [fde-03-evaluation-starter](https://github.com/sundayayandele/fde-03-evaluation-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-03-evaluation](https://github.com/sundayayandele/fde-03-evaluation), is an evaluation harness with golden sets, a calibrated judge, a red team and a CI release gate. Open it only after you have tried each exercise.
+
 ## Capstone 2
 
 This phase ends with **[Capstone 2: Eval harness and red-team report for Capstone 1](../../capstones/02-eval-harness-and-red-team/README.md)**. Read the brief before week 1 of the phase so you build towards it.

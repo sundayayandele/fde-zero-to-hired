@@ -16,6 +16,8 @@ The goal is to build retrieval and agent systems on hosted model APIs that hold 
 
 **Resources:** provider docs (Mistral, OpenAI, Anthropic cookbooks); Hugging Face LLM Course; the MCP specification and SDK examples; LangGraph tutorials.
 
+**Code:** start with [fde-02-llm-applications-starter](https://github.com/sundayayandele/fde-02-llm-applications-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-02-llm-applications](https://github.com/sundayayandele/fde-02-llm-applications), is a cited document assistant over company filings with hybrid retrieval, refusals, streaming and an MCP server. Open it only after you have tried each exercise.
+
 ## Capstone 1
 
 This phase ends with **[Capstone 1: Enterprise document assistant](../../capstones/01-enterprise-document-assistant/README.md)**. Read the brief before week 1 of the phase so you build towards it.

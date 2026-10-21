@@ -5,6 +5,9 @@ All notable changes to the curriculum. Versions follow semantic versioning for c
 
 ## [Unreleased]
 
+### Added
+- Links to the Phase 0–3 code repos (starter and reference) in the README and in each phase; worked-example links for Capstones 1 and 2.
+
 ### Fixed
 - Replaced closed Mistral AI postings with Wayback Machine archives; marked Cornerstone as closed with no archive.
 

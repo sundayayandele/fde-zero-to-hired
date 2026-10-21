@@ -15,6 +15,8 @@ The goal is to write clean, tested Python, ship a small web API to the cloud, an
 
 **Resources:** Harvard CS50P (Python), *The Missing Semester* (MIT, shell and Git), SQLBolt.
 
+**Code:** start with [fde-00-programming-starter](https://github.com/sundayayandele/fde-00-programming-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-00-programming](https://github.com/sundayayandele/fde-00-programming), is a tested complaint-ingestion pipeline and CLI over the US CFPB complaints data, with SQLite, Postgres and a report API. Open it only after you have tried each exercise.
+
 **Exit check:** a public GitHub repo with a tested command-line tool that pulls data from a public API, stores it in SQLite and prints a report. CI runs the tests on every push.
 
 ---

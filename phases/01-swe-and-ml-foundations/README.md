@@ -17,6 +17,8 @@ The goal is to write clean, tested Python, ship a small web API to the cloud, an
 
 **Resources:** FastAPI official tutorial; 3Blue1Brown *Essence of Linear Algebra* and *Neural Networks*; Andrej Karpathy *Neural Networks: Zero to Hero* (first videos); fast.ai *Practical Deep Learning for Coders*.
 
+**Code:** start with [fde-01-foundations-starter](https://github.com/sundayayandele/fde-01-foundations-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-01-foundations](https://github.com/sundayayandele/fde-01-foundations), is a complaint-routing classifier that compares scikit-learn, PyTorch and DistilBERT and sends uncertain cases to a person. Open it only after you have tried each exercise.
+
 **Exit check:** a deployed FastAPI service with a small UI that serves a scikit-learn or PyTorch model, plus a README explaining the metric you chose and why. If you can already do this, skip to Phase 2.
 
 ---
