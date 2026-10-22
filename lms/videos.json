@@ -819,6 +819,160 @@
           "why": "Full LangGraph course for building complex agents in Python."
         }
       ]
+    },
+    {
+      "phase": 3,
+      "title": "Evaluation and reliability",
+      "weeks": [
+        {
+          "week": 16,
+          "topic": "Eval design",
+          "videos": [
+            {
+              "id": "EN8jVkv0kiw",
+              "title": "Why Everyone Should Know About AI Evals: The Fundamentals Explained",
+              "channel": "ByteByteAI",
+              "minutes": 9.0,
+              "published": "2026-04-29",
+              "why": "Why evals matter and the fundamentals every AI system needs."
+            },
+            {
+              "id": "DZxaPNYi_k0",
+              "title": "How To Approach Your AI Evals",
+              "channel": "Hamel Husain",
+              "minutes": 4.3,
+              "published": "2026-06-16",
+              "why": "How to approach evals: start from real errors, not generic metrics."
+            },
+            {
+              "id": "MltkRz94SWA",
+              "title": "The Most Important Skill for AI Engineers: Evals Explained",
+              "channel": "Aish Reganti",
+              "minutes": 17.7,
+              "published": "2026-09-17",
+              "why": "Evals explained end to end, the skill hiring teams test for."
+            },
+            {
+              "id": "qI2qQfOG0Js",
+              "title": "6.1 How to evaluate a RAG system: methods and metrics",
+              "channel": "Evidently AI",
+              "minutes": 7.1,
+              "published": "2025-05-20",
+              "why": "How to evaluate a RAG system: retrieval and answer metrics."
+            },
+            {
+              "id": "u12MxA-LPSY",
+              "title": "What are Golden Datasets? (And Why You Need One for AI Testing)",
+              "channel": "TestinGil  - Gil Zilberfeld",
+              "minutes": 4.3,
+              "published": "2025-10-29",
+              "why": "Golden datasets: the fixed test set every change is measured against."
+            }
+          ]
+        },
+        {
+          "week": 17,
+          "topic": "LLM-as-judge and guardrails",
+          "videos": [
+            {
+              "id": "trfUBIDeI1Y",
+              "title": "LLM as a Judge: Scaling AI Evaluation Strategies",
+              "channel": "IBM Technology",
+              "minutes": 6.1,
+              "published": "2025-09-15",
+              "why": "LLM as a judge: scaling evaluation, and where it goes wrong."
+            },
+            {
+              "id": "tqUDjc1HzO4",
+              "title": "How to Automate AI Evals (Correctly)",
+              "channel": "Hamel Husain",
+              "minutes": 27.3,
+              "published": "2026-07-03",
+              "why": "Automating evals correctly: judges you have checked against human labels."
+            },
+            {
+              "id": "KDcayRssGbw",
+              "title": "Prompt Injection, Clearly Explained",
+              "channel": "ByteByteAI",
+              "minutes": 5.8,
+              "published": "2026-05-13",
+              "why": "Prompt injection, clearly explained, including attacks hidden in documents."
+            },
+            {
+              "id": "8i95orzUrY0",
+              "title": "Episode 3: Direct Prompt Injection Explained | AI Red Teaming 101",
+              "channel": "Microsoft Developer",
+              "minutes": 5.8,
+              "published": "2025-07-09",
+              "why": "Direct prompt injection, from Microsoft's AI Red Teaming 101 series."
+            },
+            {
+              "id": "gUNXZMcd2jU",
+              "title": "OWASP's Top 10 Ways to Attack LLMs: AI Vulnerabilities Exposed",
+              "channel": "IBM Technology",
+              "minutes": 25.2,
+              "published": "2026-03-07",
+              "why": "The OWASP Top 10 ways LLM applications get attacked."
+            },
+            {
+              "id": "rMUycP_cp9g",
+              "title": "Advanced Guardrails for AI Agents | Full Tutorial",
+              "channel": "James Briggs",
+              "minutes": 22.2,
+              "published": "2025-04-01",
+              "why": "Building guardrails for AI agents: input, output and tool checks."
+            }
+          ]
+        },
+        {
+          "week": 18,
+          "topic": "Observability and regression",
+          "videos": [
+            {
+              "id": "hLvwoow3XTk",
+              "title": "OpenTelemetry: Simplifying Hybrid Cloud Monitoring",
+              "channel": "IBM Technology",
+              "minutes": 5.7,
+              "published": "2024-11-22",
+              "why": "OpenTelemetry: the open standard for traces, metrics and logs."
+            },
+            {
+              "id": "THfB4p2xCFY",
+              "title": "Langfuse Walkthrough - Full Demo of Agent Tracing, Evals, Experiments and Prompt Management",
+              "channel": "Langfuse",
+              "minutes": 14.9,
+              "published": "2026-09-18",
+              "why": "Langfuse walkthrough: tracing, evals, experiments and prompt management (official)."
+            },
+            {
+              "id": "BQrohJ3PT7I",
+              "title": "How to use GitHub Actions | GitHub for Beginners",
+              "channel": "GitHub",
+              "minutes": 8.1,
+              "published": "2026-03-16",
+              "why": "GitHub Actions: running your tests and eval suite on every change (official GitHub)."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "a3SMraZWNNs",
+          "title": "How to Systematically Setup LLM Evals (Metrics, Unit Tests, LLM-as-a-Judge)",
+          "channel": "Dave Ebbelaar",
+          "minutes": 55.0,
+          "published": "2025-09-04",
+          "why": "Setting up LLM evals systematically: metrics, unit tests and LLM judges, with code."
+        },
+        {
+          "id": "uiza7wp1KrE",
+          "title": "AI Evaluations Clearly Explained in 50 Minutes (Real Example) | Hamel Husain",
+          "channel": "Peter Yang",
+          "minutes": 52.5,
+          "published": "2025-09-28",
+          "why": "Hamel Husain walks through AI evaluations on a real product example."
+        }
+      ]
     }
   ]
 }
