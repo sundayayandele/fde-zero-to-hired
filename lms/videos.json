@@ -1233,6 +1233,246 @@
           "why": "Fine-tuning your own LLM with LoRA on a custom dataset, end to end."
         }
       ]
+    },
+    {
+      "phase": 5,
+      "title": "Inference, deployment and sovereign AI",
+      "weeks": [
+        {
+          "week": 25,
+          "topic": "LLM serving",
+          "videos": [
+            {
+              "id": "McLdlg5Gc9s",
+              "title": "What is vLLM? Efficient AI Inference for Large Language Models",
+              "channel": "IBM Technology",
+              "minutes": 5.0,
+              "published": "2025-05-26",
+              "why": "What vLLM is and why it serves models so much more efficiently."
+            },
+            {
+              "id": "qdPkA5mxLhg",
+              "title": "Understanding vLLM with a Hands On Demo",
+              "channel": "KodeKloud",
+              "minutes": 15.3,
+              "published": "2026-03-31",
+              "why": "vLLM hands on: serving a model behind an OpenAI-compatible endpoint."
+            },
+            {
+              "id": "Tv71-g75OgU",
+              "title": "vLLM: Easy, Fast, and Cheap LLM Serving for Everyone - Simon Mo, vLLM",
+              "channel": "PyTorch",
+              "minutes": 24.8,
+              "published": "2025-11-03",
+              "why": "vLLM from its maintainers: continuous batching, PagedAttention and what's next (official PyTorch)."
+            },
+            {
+              "id": "6uPnLkCiy5g",
+              "title": "PagedAttention: Behind vLLM's Insane Speed",
+              "channel": "Tales Of Tensors",
+              "minutes": 6.9,
+              "published": "2025-12-14",
+              "why": "PagedAttention: how vLLM manages KV-cache memory like virtual memory."
+            },
+            {
+              "id": "18AkpuX3vkY",
+              "title": "SGLang vs vLLM: Which LLM Inference Framework Should You Use?",
+              "channel": "Neural AI Flair",
+              "minutes": 11.8,
+              "published": "2026-06-21",
+              "why": "SGLang vs vLLM: choosing a serving framework."
+            },
+            {
+              "id": "0ujh7hfutq0",
+              "title": "Llama.cpp vs vLLM: Which Local LLM Engine Actually Scales?",
+              "channel": "IBM Technology",
+              "minutes": 10.6,
+              "published": "2026-07-28",
+              "why": "llama.cpp vs vLLM: laptop-scale vs production-scale serving."
+            }
+          ]
+        },
+        {
+          "week": 26,
+          "topic": "Quantization and sizing",
+          "videos": [
+            {
+              "id": "jUIjgp4puvw",
+              "title": "LLM Quantization Explained",
+              "channel": "KodeKloud",
+              "minutes": 4.3,
+              "published": "2026-08-05",
+              "why": "Quantization in four minutes: smaller, faster models and what you give up."
+            },
+            {
+              "id": "qoQJq5UwV1c",
+              "title": "How LLMs survive in low precision | Quantization Fundamentals",
+              "channel": "Julia Turc",
+              "minutes": 20.6,
+              "published": "2025-05-17",
+              "why": "How LLMs survive in low precision: the fundamentals of quantization."
+            },
+            {
+              "id": "7hYSmzIZXNs",
+              "title": "GGUF vs AWQ vs GPTQ: LLM Quantization Methods Explained",
+              "channel": "Cloud Codes",
+              "minutes": 9.8,
+              "published": "2026-06-20",
+              "why": "GGUF vs AWQ vs GPTQ: which quantization format for which runtime."
+            },
+            {
+              "id": "Fx2sLT-84V4",
+              "title": "Why LLMs Use Weird Numbers: FP8, BF16, INT4",
+              "channel": "ML Guy",
+              "minutes": 7.0,
+              "published": "2026-06-21",
+              "why": "FP8, BF16 and INT4: the number formats behind fast inference."
+            },
+            {
+              "id": "k1PheZjZHuE",
+              "title": "Free VRAM Calculator: This Tiny Web App Calculates LLM Memory in Seconds!",
+              "channel": "Fahd Mirza",
+              "minutes": 8.1,
+              "published": "2026-01-02",
+              "why": "Working out how much GPU memory a model needs before you rent a GPU."
+            }
+          ]
+        },
+        {
+          "week": 27,
+          "topic": "Kubernetes for GPUs",
+          "videos": [
+            {
+              "id": "Xv9dnKHO8tg",
+              "title": "Kubernetes Simply Explained",
+              "channel": "TechWorld with Nana",
+              "minutes": 4.2,
+              "published": "2026-09-23",
+              "why": "Kubernetes, simply explained (2026)."
+            },
+            {
+              "id": "fy8SHvNZGeE",
+              "title": "What is Helm?",
+              "channel": "IBM Technology",
+              "minutes": 9.1,
+              "published": "2019-12-18",
+              "why": "Helm: packaging and versioning Kubernetes deployments."
+            },
+            {
+              "id": "ZsOR8RkAOwI",
+              "title": "Kubernetes vs. OpenShift",
+              "channel": "IBM Technology",
+              "minutes": 9.3,
+              "published": "2022-10-07",
+              "why": "Kubernetes vs OpenShift: what Red Hat adds for enterprises."
+            },
+            {
+              "id": "KER0dbfmAqQ",
+              "title": "NVIDIA GPU Operator Overview",
+              "channel": "NVIDIA Developer",
+              "minutes": 13.3,
+              "published": "2023-06-21",
+              "why": "The NVIDIA GPU Operator: making GPUs schedulable in a cluster (official NVIDIA)."
+            },
+            {
+              "id": "hsJ2qtwoWZw",
+              "title": "Kubernetes Autoscaling: HPA vs. VPA vs. Keda vs. CA vs. Karpenter vs. Fargate",
+              "channel": "Anton Putra",
+              "minutes": 14.6,
+              "published": "2023-11-19",
+              "why": "Autoscaling in Kubernetes: HPA, VPA, KEDA and node autoscalers compared."
+            },
+            {
+              "id": "CNKGgOphAPM",
+              "title": "LLM‑D Explained: Building Next‑Gen AI with LLMs, RAG & Kubernetes",
+              "channel": "IBM Technology",
+              "minutes": 5.3,
+              "published": "2026-01-03",
+              "why": "llm-d: Kubernetes-native distributed LLM serving."
+            }
+          ]
+        },
+        {
+          "week": 28,
+          "topic": "Sovereign and enterprise deployment",
+          "videos": [
+            {
+              "id": "Gj13NR35WU4",
+              "title": "What Is Digital Sovereignty? AI, Data & Control Explained",
+              "channel": "IBM Technology",
+              "minutes": 9.5,
+              "published": "2026-09-01",
+              "why": "Digital sovereignty: who controls the AI, the data and the infrastructure."
+            },
+            {
+              "id": "rh3yG8fsYA8",
+              "title": "What is an Air Gap? Air Gapping and Cybersecurity",
+              "channel": "Eye on Tech",
+              "minutes": 2.6,
+              "published": "2022-10-05",
+              "why": "What an air gap is and why regulated customers ask for one."
+            },
+            {
+              "id": "5KChrGWFcpk",
+              "title": "Single Sign-On (SSO) Explained in 10 Minutes | SAML, OIDC & SCIM",
+              "channel": "ByteMonk",
+              "minutes": 7.5,
+              "published": "2025-08-21",
+              "why": "Single sign-on with SAML, OIDC and SCIM, the way enterprises connect identity."
+            },
+            {
+              "id": "SaLHDNqrZ80",
+              "title": "How to use Cloud Audit Logging",
+              "channel": "Google Cloud Tech",
+              "minutes": 7.0,
+              "published": "2021-07-02",
+              "why": "Audit logging: recording who did what, for security and compliance."
+            },
+            {
+              "id": "NcHSD3fWJiQ",
+              "title": "What are the 7 principles of GDPR?",
+              "channel": "Privacy Kitchen",
+              "minutes": 8.0,
+              "published": "2021-09-23",
+              "why": "The seven principles of GDPR every data system must respect."
+            },
+            {
+              "id": "LqqZFqWNtzY",
+              "title": "EU AI Act Explained - What You Need to Know",
+              "channel": "CyberPaw",
+              "minutes": 15.1,
+              "published": "2026-09-27",
+              "why": "The EU AI Act: risk categories and what builders must do (2026)."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "9tvJ_GYJA-o",
+          "title": "Mastering LLM Inference Optimization From Theory to Cost Effective Deployment: Mark Moyou",
+          "channel": "AI Engineer",
+          "minutes": 33.6,
+          "published": "2025-01-01",
+          "why": "LLM inference optimization from theory to cost-effective deployment."
+        },
+        {
+          "id": "_hhbzZeQ8sY",
+          "title": "Deep Dive: LLM Quantization, part 3 - FP8, FP4",
+          "channel": "Julien Simon",
+          "minutes": 37.5,
+          "published": "2026-03-30",
+          "why": "Deep dive on FP8 and FP4 quantization, with benchmarks."
+        },
+        {
+          "id": "s_o8dwzRlu4",
+          "title": "Kubernetes Crash Course for Absolute Beginners [NEW]",
+          "channel": "TechWorld with Nana",
+          "minutes": 72.0,
+          "published": "2021-09-30",
+          "why": "Kubernetes crash course for absolute beginners, hands on."
+        }
+      ]
     }
   ]
 }
