@@ -973,6 +973,266 @@
           "why": "Hamel Husain walks through AI evaluations on a real product example."
         }
       ]
+    },
+    {
+      "phase": 4,
+      "title": "Model customization",
+      "weeks": [
+        {
+          "week": 19,
+          "topic": "PyTorch for LLMs",
+          "videos": [
+            {
+              "id": "Dh9CL8fyG80",
+              "title": "Write your training loop in PyTorch",
+              "channel": "Hugging Face",
+              "minutes": 4.9,
+              "published": "2021-06-14",
+              "why": "Writing your own PyTorch training loop (official Hugging Face course)."
+            },
+            {
+              "id": "PXOzkkB5eH0",
+              "title": "PyTorch Tutorial 09 - Dataset and DataLoader - Batch Training",
+              "channel": "Patrick Loeber",
+              "minutes": 15.4,
+              "published": "2020-01-04",
+              "why": "Datasets and DataLoaders: feeding batches to the training loop."
+            },
+            {
+              "id": "87GhCIQudEA",
+              "title": "Mixed Precision Training - Explained",
+              "channel": "DataMListic",
+              "minutes": 10.6,
+              "published": "2026-09-19",
+              "why": "Mixed precision: training faster and with less GPU memory."
+            },
+            {
+              "id": "pPStdjuYzSI",
+              "title": "Nvidia CUDA in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 3.2,
+              "published": "2024-03-07",
+              "why": "CUDA in 100 seconds: why GPUs make deep learning practical."
+            }
+          ]
+        },
+        {
+          "week": 20,
+          "topic": "Transformer internals",
+          "videos": [
+            {
+              "id": "avjX3QrYkls",
+              "title": "Transformers Step-by-Step Explained (Attention Is All You Need)",
+              "channel": "ByteByteGo",
+              "minutes": 10.1,
+              "published": "2025-12-11",
+              "why": "The transformer step by step, as in 'Attention Is All You Need'."
+            },
+            {
+              "id": "RNF0FvRjGZk",
+              "title": "I Visualised Attention in Transformers",
+              "channel": "Gal Lahat",
+              "minutes": 13.0,
+              "published": "2025-06-30",
+              "why": "Attention visualised: how each token decides what to look at."
+            },
+            {
+              "id": "gstdcCDqdlc",
+              "title": "Tokenization and Byte Pair Encoding",
+              "channel": "Luis Serrano Academy",
+              "minutes": 7.5,
+              "published": "2025-12-27",
+              "why": "Tokenization and byte-pair encoding, worked through by hand."
+            },
+            {
+              "id": "EA24K07lH0Y",
+              "title": "Positional Encodings: Why RoPE Rotates Instead of Adds",
+              "channel": "DataMListic",
+              "minutes": 4.7,
+              "published": "2026-07-20",
+              "why": "Positional encodings, and why RoPE rotates instead of adds."
+            },
+            {
+              "id": "o0gkdZBtwEg",
+              "title": "How KV Cache Speeds Up LLMs for Faster AI Models on GPUs",
+              "channel": "IBM Technology",
+              "minutes": 11.2,
+              "published": "2026-06-30",
+              "why": "The KV cache: why generation gets faster, and why it costs memory (IBM and Red Hat)."
+            },
+            {
+              "id": "vHF7gGvAqu8",
+              "title": "Mixture of Experts: Explained & Implemented",
+              "channel": "NeuralNine",
+              "minutes": 24.1,
+              "published": "2026-08-10",
+              "why": "Mixture of experts explained and implemented, the idea behind Mixtral."
+            }
+          ]
+        },
+        {
+          "week": 21,
+          "topic": "Data for fine-tuning",
+          "videos": [
+            {
+              "id": "-W2JdSl1v48",
+              "title": "Is Fine-Tuning Still Needed? LLMs, RAG, & LoRA",
+              "channel": "IBM Technology",
+              "minutes": 10.9,
+              "published": "2026-07-21",
+              "why": "Is fine-tuning still needed? Where it beats prompting and RAG, and where it does not."
+            },
+            {
+              "id": "ezdIOLbUSWg",
+              "title": "Fine Tuning LLM Explained Simply",
+              "channel": "codebasics",
+              "minutes": 6.8,
+              "published": "2025-10-06",
+              "why": "Fine-tuning explained simply: what changes in the model and why data matters most."
+            },
+            {
+              "id": "Cb8DZraP9n0",
+              "title": "How to Create Synthetic Datasets for Fine-Tuning Llama",
+              "channel": "Meta Developers",
+              "minutes": 2.9,
+              "published": "2025-07-10",
+              "why": "Creating synthetic datasets for fine-tuning (official Meta)."
+            },
+            {
+              "id": "mmbkP8NARH4",
+              "title": "Get Started with Unsloth Studio: Generate Data & Fine-Tune LLMs Locally on any NVIDIA GPU",
+              "channel": "NVIDIA Developer",
+              "minutes": 8.3,
+              "published": "2026-03-17",
+              "why": "Generating training data and fine-tuning locally with Unsloth Studio (official NVIDIA)."
+            }
+          ]
+        },
+        {
+          "week": 22,
+          "topic": "Supervised fine-tuning",
+          "videos": [
+            {
+              "id": "722yHNfei7k",
+              "title": "Parameter-Efficient Fine-Tuning for LLMs: LoRA, QLoRA, rsLoRA & LoRA-FA",
+              "channel": "Ryan Rad",
+              "minutes": 12.8,
+              "published": "2026-08-15",
+              "why": "Parameter-efficient fine-tuning: LoRA, QLoRA and their variants."
+            },
+            {
+              "id": "dMY3dBLojTk",
+              "title": "Fast Fine Tuning with Unsloth",
+              "channel": "Matt Williams",
+              "minutes": 16.5,
+              "published": "2025-01-24",
+              "why": "Fast LoRA fine-tuning with Unsloth, start to finish."
+            },
+            {
+              "id": "Yr0G1QbAsEE",
+              "title": "How to Fine-Tune an AI Model Locally with Unsloth - Method That Actually Works!",
+              "channel": "Gary Explains",
+              "minutes": 17.6,
+              "published": "2026-10-19",
+              "why": "Fine-tuning a model locally with Unsloth, a method that works on modest hardware."
+            }
+          ]
+        },
+        {
+          "week": 23,
+          "topic": "Preference tuning",
+          "videos": [
+            {
+              "id": "vJ4SsfmeQlk",
+              "title": "Reinforcement Learning with Human Feedback (RLHF) in 4 minutes",
+              "channel": "Sebastian Raschka",
+              "minutes": 4.1,
+              "published": "2025-02-08",
+              "why": "RLHF in four minutes, from Sebastian Raschka."
+            },
+            {
+              "id": "qPN_XZcJf_s",
+              "title": "Reinforcement Learning with Human Feedback (RLHF), Clearly Explained!!!",
+              "channel": "StatQuest with Josh Starmer",
+              "minutes": 18.0,
+              "published": "2025-05-04",
+              "why": "RLHF clearly explained: rewards, preferences and why they matter."
+            },
+            {
+              "id": "TfybkCFQufc",
+              "title": "Direct Preference Optimization (DPO) | Paper Explained",
+              "channel": "Outlier",
+              "minutes": 16.9,
+              "published": "2025-12-10",
+              "why": "Direct Preference Optimization: preference tuning without a reward model."
+            },
+            {
+              "id": "EX8-ucKOBbA",
+              "title": "Group Relative Policy Optimization(GRPO) Visualized",
+              "channel": "AGI Lambda",
+              "minutes": 6.8,
+              "published": "2025-02-02",
+              "why": "GRPO visualised: the reinforcement learning method behind reasoning models."
+            },
+            {
+              "id": "xT4jxQUl0X8",
+              "title": "DeepSeek's GRPO (Group Relative Policy Optimization) | Reinforcement Learning for LLMs",
+              "channel": "Julia Turc",
+              "minutes": 23.3,
+              "published": "2025-03-18",
+              "why": "GRPO in depth, and when reinforcement learning fine-tuning pays off."
+            }
+          ]
+        },
+        {
+          "week": 24,
+          "topic": "Decision and Capstone 3",
+          "videos": [
+            {
+              "id": "zYGDpG-pTho",
+              "title": "RAG vs Fine-Tuning vs Prompt Engineering: Optimizing AI Models",
+              "channel": "IBM Technology",
+              "minutes": 13.2,
+              "published": "2025-04-14",
+              "why": "RAG vs fine-tuning vs prompt engineering: choosing with evidence."
+            },
+            {
+              "id": "Q-_D_2NWECE",
+              "title": "RAG vs Fine Tuning vs Prompt Engineering",
+              "channel": "codebasics",
+              "minutes": 9.4,
+              "published": "2025-10-17",
+              "why": "The same decision with concrete examples and trade-offs."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "k86eUj4hgdc",
+          "title": "Positional Encodings and Group Theory | 3Blue1Brown and Alok Puranik",
+          "channel": "Jane Street",
+          "minutes": 76.5,
+          "published": "2026-08-26",
+          "why": "3Blue1Brown and Jane Street on positional encodings: the maths behind RoPE."
+        },
+        {
+          "id": "4JofSJIrjwU",
+          "title": "How to Fine-Tune any AI Model Locally (FULL Tutorial)",
+          "channel": "Tech With Tim",
+          "minutes": 41.1,
+          "published": "2026-07-27",
+          "why": "A full local fine-tuning tutorial, from dataset to running model."
+        },
+        {
+          "id": "D3pXSkGceY0",
+          "title": "How to Fine Tune your own LLM using LoRA (on a CUSTOM dataset!)",
+          "channel": "Nicholas Renotte",
+          "minutes": 61.1,
+          "published": "2025-06-08",
+          "why": "Fine-tuning your own LLM with LoRA on a custom dataset, end to end."
+        }
+      ]
     }
   ]
 }
