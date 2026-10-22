@@ -6,6 +6,7 @@ All notable changes to the curriculum. Versions follow semantic versioning for c
 ## [Unreleased]
 
 ### Added
+- `lms/moodle/BLUEPRINT.md`: how to run the curriculum as a Moodle course (sections, completion rules, the capstone rubric, badges, certificate).
 - Links to the Phase 0–3 code repos (starter and reference) in the README and in each phase; worked-example links for Capstones 1 and 2.
 
 ### Fixed
