@@ -525,6 +525,300 @@
           "why": "Rob Mulla builds a first PyTorch model end to end, with code."
         }
       ]
+    },
+    {
+      "phase": 2,
+      "title": "LLM application engineering",
+      "weeks": [
+        {
+          "week": 11,
+          "topic": "How LLMs behave",
+          "videos": [
+            {
+              "id": "nKSk_TiR8YA",
+              "title": "Most devs don't understand how LLM tokens work",
+              "channel": "Matt Pocock",
+              "minutes": 10.9,
+              "published": "2025-09-19",
+              "why": "Tokens: what models actually read, and why they drive cost and limits."
+            },
+            {
+              "id": "-QVoIxEpFkM",
+              "title": "What is a Context Window? Unlocking LLM Secrets",
+              "channel": "IBM Technology",
+              "minutes": 11.5,
+              "published": "2025-01-21",
+              "why": "Context windows: how much a model can see at once, and what happens at the edge."
+            },
+            {
+              "id": "MkaazQttbpc",
+              "title": "The Secret Controls for your LLM: Temperature, Top-K, Top-P, etc",
+              "channel": "Gary Explains",
+              "minutes": 14.8,
+              "published": "2026-05-27",
+              "why": "Temperature, top-k and top-p: the controls that make output steady or creative."
+            },
+            {
+              "id": "ysPbXH0LpIE",
+              "title": "Prompting 101 | Code w/ Claude",
+              "channel": "Anthropic",
+              "minutes": 24.9,
+              "published": "2025-07-31",
+              "why": "Prompting 101 from Anthropic: structure, examples and iterating on a real prompt."
+            },
+            {
+              "id": "CllLqPwCjD4",
+              "title": "Getting Structured Output in JSON format",
+              "channel": "Telusko",
+              "minutes": 9.2,
+              "published": "2025-10-16",
+              "why": "Structured output: getting JSON you can parse instead of free text."
+            }
+          ]
+        },
+        {
+          "week": 12,
+          "topic": "RAG fundamentals",
+          "videos": [
+            {
+              "id": "_HQ2H_0Ayy0",
+              "title": "RAG Explained For Beginners",
+              "channel": "KodeKloud",
+              "minutes": 10.2,
+              "published": "2025-08-13",
+              "why": "RAG from the ground up: retrieve the right text, then generate from it."
+            },
+            {
+              "id": "zSA7ylHP6AY",
+              "title": "What Is Docling? Transforming Unstructured Data for RAG and AI",
+              "channel": "IBM Technology",
+              "minutes": 8.3,
+              "published": "2025-08-04",
+              "why": "Docling: turning messy PDFs, tables and scans into clean text for RAG."
+            },
+            {
+              "id": "ZTOtxiWb2bE",
+              "title": "Chunking Strategies Explained",
+              "channel": "Redis",
+              "minutes": 8.4,
+              "published": "2025-06-27",
+              "why": "Chunking strategies and how chunk size changes what retrieval finds."
+            },
+            {
+              "id": "bGNYyK1L41g",
+              "title": "What Are Vector Embeddings? (Explained in 2 Minutes) [Quick Question Ep. 6]",
+              "channel": "Elastic",
+              "minutes": 1.8,
+              "published": "2025-09-04",
+              "why": "Vector embeddings in two minutes."
+            },
+            {
+              "id": "gl1r1XV0SLw",
+              "title": "What is a Vector Database? Powering Semantic Search & AI Applications",
+              "channel": "IBM Technology",
+              "minutes": 9.8,
+              "published": "2025-03-24",
+              "why": "What a vector database does and why semantic search needs one."
+            },
+            {
+              "id": "OE279t8377o",
+              "title": "How I Added Vector Search to my Course (Postgres + PGVector )",
+              "channel": "Web Dev Cody",
+              "minutes": 8.6,
+              "published": "2026-01-01",
+              "why": "Adding vector search to Postgres with pgvector, in a real app."
+            },
+            {
+              "id": "_83L9ZIoOjM",
+              "title": "Qdrant Essentials | Building Simple Vector Search in Qdrant",
+              "channel": "Qdrant Vector Search",
+              "minutes": 9.9,
+              "published": "2025-10-22",
+              "why": "Building a simple vector search with Qdrant (official Qdrant)."
+            }
+          ]
+        },
+        {
+          "week": 13,
+          "topic": "Advanced RAG",
+          "videos": [
+            {
+              "id": "r0Dciuq0knU",
+              "title": "Top 3 RAG Retrieval Strategies: Sparse, Dense, & Hybrid Explained",
+              "channel": "IBM Technology",
+              "minutes": 8.5,
+              "published": "2025-10-20",
+              "why": "Sparse, dense and hybrid retrieval, and when each wins."
+            },
+            {
+              "id": "lD3_VF5bmWg",
+              "title": "BM25 Algorithm and Hybrid Search: AI Explained",
+              "channel": "Tejas Kumar",
+              "minutes": 9.8,
+              "published": "2025-04-09",
+              "why": "BM25, the keyword algorithm inside hybrid search."
+            },
+            {
+              "id": "R5MPqm0V6aQ",
+              "title": "RAG Reranking Explained: How To Improve RAG Results",
+              "channel": "pixegami",
+              "minutes": 14.4,
+              "published": "2025-10-06",
+              "why": "Reranking: a second pass that puts the best chunks first."
+            },
+            {
+              "id": "tLMViADvSNE",
+              "title": "Every RAG Strategy Explained in 13 Minutes (No Fluff)",
+              "channel": "Cole Medin",
+              "minutes": 12.8,
+              "published": "2025-11-02",
+              "why": "A tour of RAG strategies: query rewriting, contextual retrieval, reranking and more."
+            },
+            {
+              "id": "JB2P5Gk23VI",
+              "title": "RAG's Evolution: From Simple Retrieval to Agentic AI",
+              "channel": "IBM Technology",
+              "minutes": 8.8,
+              "published": "2026-05-05",
+              "why": "How RAG evolved from simple retrieval to agentic RAG."
+            },
+            {
+              "id": "UabBYexBD4k",
+              "title": "Is RAG Still Needed? Choosing the Best Approach for LLMs",
+              "channel": "IBM Technology",
+              "minutes": 11.2,
+              "published": "2026-03-09",
+              "why": "Is RAG still needed with long-context models? Choosing the right approach."
+            }
+          ]
+        },
+        {
+          "week": 14,
+          "topic": "Agents and tools",
+          "videos": [
+            {
+              "id": "h8gMhXYAv1k",
+              "title": "What is Tool Calling? Connecting LLMs to Your Data",
+              "channel": "IBM Technology",
+              "minutes": 4.9,
+              "published": "2025-01-13",
+              "why": "Tool calling: how a model asks your code to fetch data or take an action."
+            },
+            {
+              "id": "FwOTs4UxQS4",
+              "title": "AI Agents, Clearly Explained",
+              "channel": "Jeff Su",
+              "minutes": 10.2,
+              "published": "2025-04-08",
+              "why": "What makes something an agent, and how agents differ from workflows."
+            },
+            {
+              "id": "LP5OCa20Zpg",
+              "title": "Tips for building AI agents",
+              "channel": "Anthropic",
+              "minutes": 18.3,
+              "published": "2025-02-13",
+              "why": "Tips for building AI agents, from the team at Anthropic."
+            },
+            {
+              "id": "cUfLrn3TM3M",
+              "title": "LangGraph Explained for Beginners",
+              "channel": "KodeKloud",
+              "minutes": 13.3,
+              "published": "2025-08-22",
+              "why": "LangGraph: agents and workflows as graphs you can control and debug."
+            },
+            {
+              "id": "eur8dUO9mvE",
+              "title": "What is MCP? Integrate AI Agents with Databases & APIs",
+              "channel": "IBM Technology",
+              "minutes": 3.8,
+              "published": "2025-02-19",
+              "why": "MCP in four minutes: one standard way to connect agents to tools and data."
+            },
+            {
+              "id": "CQywdSdi5iA",
+              "title": "The Model Context Protocol (MCP)",
+              "channel": "Anthropic",
+              "minutes": 19.6,
+              "published": "2025-06-16",
+              "why": "The Model Context Protocol explained by Anthropic, who created it."
+            },
+            {
+              "id": "-8k9lGpGQ6g",
+              "title": "Build Anything With a CUSTOM MCP Server - Python Tutorial",
+              "channel": "Tech With Tim",
+              "minutes": 26.0,
+              "published": "2025-04-12",
+              "why": "Building a custom MCP server in Python, step by step."
+            }
+          ]
+        },
+        {
+          "week": 15,
+          "topic": "Capstone 1 build week",
+          "videos": [
+            {
+              "id": "E6NO0rgFub4",
+              "title": "How To Write a USEFUL README On Github",
+              "channel": "Learn Fast Make Things",
+              "minutes": 8.4,
+              "published": "2022-05-03",
+              "why": "Writing a README that makes reviewers want to run your project."
+            },
+            {
+              "id": "p4gTbKcOXqk",
+              "title": "New to Mermaid? Here's Everything You Need to Know",
+              "channel": "Mermaid",
+              "minutes": 4.4,
+              "published": "2025-12-06",
+              "why": "Architecture diagrams as code with Mermaid, rendered right in GitHub."
+            },
+            {
+              "id": "Edj_zj4U_9s",
+              "title": "How to make a SaaS product demo video",
+              "channel": "Tom Bruining",
+              "minutes": 12.8,
+              "published": "2024-12-01",
+              "why": "Recording a short product demo video people actually watch."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "7xTGNNLPyMI",
+          "title": "Deep Dive into LLMs like ChatGPT",
+          "channel": "Andrej Karpathy",
+          "minutes": 211.4,
+          "published": "2025-02-05",
+          "why": "Andrej Karpathy's deep dive into how LLMs like ChatGPT are built and behave."
+        },
+        {
+          "id": "D7_ipDqhtwk",
+          "title": "How We Build Effective Agents: Barry Zhang, Anthropic",
+          "channel": "AI Engineer",
+          "minutes": 15.2,
+          "published": "2025-04-04",
+          "why": "How Anthropic builds effective agents: keep it simple until complexity pays."
+        },
+        {
+          "id": "kQmXtrmQ5Zg",
+          "title": "Building Agents with Model Context Protocol - Full Workshop with Mahesh Murag of Anthropic",
+          "channel": "AI Engineer",
+          "minutes": 104.2,
+          "published": "2025-03-01",
+          "why": "Hands-on workshop: building agents with MCP, from Anthropic."
+        },
+        {
+          "id": "jGg_1h0qzaM",
+          "title": "LangGraph Complete Course for Beginners – Complex AI Agents with Python",
+          "channel": "freeCodeCamp.org",
+          "minutes": 189.8,
+          "published": "2025-05-20",
+          "why": "Full LangGraph course for building complex agents in Python."
+        }
+      ]
     }
   ]
 }
