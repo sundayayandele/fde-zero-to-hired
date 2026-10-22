@@ -78,7 +78,7 @@ Same pattern for both. N = 0 or 1, W = weeks in the phase (4 and 6).
 | Open the starter in Codespaces | URL | Codespaces link | none |
 | Weekly check-ins | Forum (standard, general use) | Prompt: done this week, evidence link, stuck on, next week | P*W* |
 | Phase N exit check | Assignment | Online text: repo URL, CI link, one paragraph on what you learned. Grade type: Scale "Not yet / Competent". Additional attempts: manually | S + G |
-| Reference solution | URL | Reference repo. **Restrict access:** activity completion of "Phase N exit check" = submitted | V |
+| Reference solution | URL | Reference repo. **Restrict access:** activity completion of this phase's "Weekly check-ins" forum (every week posted). Moodle has no "submitted but not yet graded" condition, so the check-ins are the proof of effort | V |
 
 ### Sections 3 to 7: Phases 2 to 6 (each ends in a capstone)
 
@@ -95,7 +95,7 @@ Activities in each:
 | Activity | Type | Settings | Completion |
 | --- | --- | --- | --- |
 | Phase N: weekly plan and resources | URL | Phase N page | V |
-| Start the lab / Codespaces / Reference solution | URL ×3 | Phases 2 and 3 only, as in Phases 0 and 1. Reference restricted until the capstone is submitted | V / none / V |
+| Start the lab / Codespaces / Reference solution | URL ×3 | Phases 2 and 3 only, as in Phases 0 and 1, including the same restriction on the reference solution | V / none / V |
 | Weekly check-ins | Forum | As above | P*W* |
 | Capstone N brief | URL | Capstone N brief | V |
 | **Capstone N submission** | Assignment | See section 4 | **P** |
