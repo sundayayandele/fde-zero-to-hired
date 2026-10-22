@@ -217,6 +217,314 @@
           "why": "MIT Missing Semester, lecture 1: the shell and the tools courses usually skip."
         }
       ]
+    },
+    {
+      "phase": 1,
+      "title": "Software engineering and ML foundations",
+      "weeks": [
+        {
+          "week": 5,
+          "topic": "Backend APIs",
+          "videos": [
+            {
+              "id": "7AMjmCTumuo",
+              "title": "Python FastAPI Tutorial (Part 1): Getting Started - Web App + REST API",
+              "channel": "Corey Schafer",
+              "minutes": 23.9,
+              "published": "2026-01-12",
+              "why": "Building a web app and REST API with FastAPI, step by step (2026)."
+            },
+            {
+              "id": "XIdQ6gO3Anc",
+              "title": "Pydantic Tutorial • Solving Python's Biggest Problem",
+              "channel": "pixegami",
+              "minutes": 11.1,
+              "published": "2023-09-18",
+              "why": "Pydantic models: validating the data that comes into your API."
+            },
+            {
+              "id": "K56nNuBEd0c",
+              "title": "AsyncIO, await, and async - Concurrency in Python",
+              "channel": "Socratica",
+              "minutes": 9.2,
+              "published": "2023-11-06",
+              "why": "async and await: how one server handles many requests at once."
+            },
+            {
+              "id": "UBUNrFtufWo",
+              "title": "Session vs Token Authentication in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 2.3,
+              "published": "2020-10-29",
+              "why": "Sessions vs tokens: the two ways a server remembers who you are."
+            },
+            {
+              "id": "ZV5yTm4pT8g",
+              "title": "OAuth 2 Explained In Simple Terms",
+              "channel": "ByteByteGo",
+              "minutes": 4.5,
+              "published": "2023-06-29",
+              "why": "OAuth 2 in plain terms, the standard behind 'Sign in with...'."
+            }
+          ]
+        },
+        {
+          "week": 6,
+          "topic": "Front-end just enough",
+          "videos": [
+            {
+              "id": "Tn6-PIqc4UM",
+              "title": "React in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 2.1,
+              "published": "2020-09-08",
+              "why": "What React is and why most web front ends use it."
+            },
+            {
+              "id": "D0D4Pa22iG0",
+              "title": "Streamlit: The Fastest Way To Build Python Apps?",
+              "channel": "pixegami",
+              "minutes": 11.9,
+              "published": "2023-11-27",
+              "why": "Streamlit: a working UI for your model in pure Python."
+            },
+            {
+              "id": "eE7CamOE-PA",
+              "title": "Gradio Crash Course - Fastest way to build & share Machine Learning apps",
+              "channel": "AssemblyAI",
+              "minutes": 13.9,
+              "published": "2022-10-27",
+              "why": "Gradio: shareable demos for ML models, the format Hugging Face Spaces uses."
+            }
+          ]
+        },
+        {
+          "week": 7,
+          "topic": "Cloud and deployment",
+          "videos": [
+            {
+              "id": "wFsOjHgvUfM",
+              "title": "The Basics You Need to Know about AWS, Azure, and Google Cloud",
+              "channel": "ArjanCodes",
+              "minutes": 6.8,
+              "published": "2024-04-09",
+              "why": "What AWS, Azure and Google Cloud offer, and how they line up."
+            },
+            {
+              "id": "zihPR6TeqjY",
+              "title": "How to deploy a container image to Cloud Run",
+              "channel": "Google Cloud Tech",
+              "minutes": 3.1,
+              "published": "2025-08-19",
+              "why": "Deploying a container to Cloud Run in three minutes (official Google Cloud)."
+            },
+            {
+              "id": "9Pk2J_5qnlk",
+              "title": "Learn AWS IAM in less than 10 minutes",
+              "channel": "AWS Developers",
+              "minutes": 9.1,
+              "published": "2026-05-20",
+              "why": "IAM basics: users, roles and least-privilege permissions (official AWS)."
+            },
+            {
+              "id": "BqekRTA6VCs",
+              "title": "Secrets Management: Secure Credentials & Avoid Data Leaks",
+              "channel": "IBM Technology",
+              "minutes": 9.7,
+              "published": "2025-04-15",
+              "why": "Keeping API keys and passwords out of code with a secrets manager."
+            },
+            {
+              "id": "pxuXaaT1u3k",
+              "title": "Why Most Python Logging Setups Fail in Production",
+              "channel": "ArjanCodes",
+              "minutes": 11.0,
+              "published": "2023-02-03",
+              "why": "Logging that still helps you when something breaks in production."
+            }
+          ]
+        },
+        {
+          "week": 8,
+          "topic": "Maths for ML",
+          "videos": [
+            {
+              "id": "fNk_zzaMoSs",
+              "title": "Vectors | Chapter 1, Essence of linear algebra",
+              "channel": "3Blue1Brown",
+              "minutes": 9.8,
+              "published": "2016-08-05",
+              "why": "Vectors: the language every embedding and model weight is written in."
+            },
+            {
+              "id": "kYB8IZa5AuE",
+              "title": "Linear transformations and matrices | Chapter 3, Essence of linear algebra",
+              "channel": "3Blue1Brown",
+              "minutes": 11.0,
+              "published": "2016-08-07",
+              "why": "Matrices as transformations, the picture behind every neural network layer."
+            },
+            {
+              "id": "LyGKycYT2v0",
+              "title": "Dot products and duality | Chapter 9, Essence of linear algebra",
+              "channel": "3Blue1Brown",
+              "minutes": 14.2,
+              "published": "2016-08-24",
+              "why": "Dot products: the operation behind similarity search and attention."
+            },
+            {
+              "id": "IHZwWFHWa-w",
+              "title": "Gradient descent, how neural networks learn | Deep Learning Chapter 2",
+              "channel": "3Blue1Brown",
+              "minutes": 20.6,
+              "published": "2017-10-16",
+              "why": "Gradient descent: how a model improves by following the slope."
+            },
+            {
+              "id": "oI3hZJqXJuc",
+              "title": "The Main Ideas behind Probability Distributions",
+              "channel": "StatQuest with Josh Starmer",
+              "minutes": 5.2,
+              "published": "2017-04-17",
+              "why": "Probability distributions, the main ideas, in five minutes."
+            },
+            {
+              "id": "YjVuJjmgclU",
+              "title": "Softmax - What is the Temperature of an AI??",
+              "channel": "MarbleScience",
+              "minutes": 8.6,
+              "published": "2023-02-02",
+              "why": "Softmax and temperature: how model scores become probabilities."
+            }
+          ]
+        },
+        {
+          "week": 9,
+          "topic": "Classical ML",
+          "videos": [
+            {
+              "id": "PeMlggyqz0Y",
+              "title": "Machine Learning Explained in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 2.6,
+              "published": "2021-09-09",
+              "why": "Machine learning in 100 seconds: the big picture before the details."
+            },
+            {
+              "id": "fSytzGwwBVw",
+              "title": "Machine Learning Fundamentals: Cross Validation",
+              "channel": "StatQuest with Josh Starmer",
+              "minutes": 6.1,
+              "published": "2018-04-24",
+              "why": "Cross-validation: testing a model on data it has not seen."
+            },
+            {
+              "id": "EuBBz3bI-aA",
+              "title": "Machine Learning Fundamentals: Bias and Variance",
+              "channel": "StatQuest with Josh Starmer",
+              "minutes": 6.6,
+              "published": "2018-09-17",
+              "why": "Bias and variance: why models underfit or overfit."
+            },
+            {
+              "id": "Kdsp6soqA7o",
+              "title": "Machine Learning Fundamentals: The Confusion Matrix",
+              "channel": "StatQuest with Josh Starmer",
+              "minutes": 7.2,
+              "published": "2018-10-29",
+              "why": "The confusion matrix: where every classification metric comes from."
+            },
+            {
+              "id": "qWfzIYCvBqo",
+              "title": "Never Forget Again! // Precision vs Recall with a Clear Example of Precision and Recall",
+              "channel": "Kimberly Fessel",
+              "minutes": 5.4,
+              "published": "2021-03-01",
+              "why": "Precision vs recall, with an example you will remember."
+            },
+            {
+              "id": "-IvNzmrcyUM",
+              "title": "Simple Machine Learning Code Tutorial for Beginners with Sklearn Scikit-Learn",
+              "channel": "Python Simplified",
+              "minutes": 23.6,
+              "published": "2025-04-29",
+              "why": "Training and evaluating a first model with scikit-learn."
+            }
+          ]
+        },
+        {
+          "week": 10,
+          "topic": "Neural networks",
+          "videos": [
+            {
+              "id": "aircAruvnKk",
+              "title": "But what is a neural network? | Deep learning chapter 1",
+              "channel": "3Blue1Brown",
+              "minutes": 18.7,
+              "published": "2017-10-05",
+              "why": "What a neural network is, built up visually from scratch."
+            },
+            {
+              "id": "Ilg3gGewQ5U",
+              "title": "Backpropagation, intuitively | Deep Learning Chapter 3",
+              "channel": "3Blue1Brown",
+              "minutes": 12.8,
+              "published": "2017-11-03",
+              "why": "Backpropagation, intuitively: how each weight learns its share of the error."
+            },
+            {
+              "id": "tIeHLnjs5U8",
+              "title": "Backpropagation calculus | Deep Learning Chapter 4",
+              "channel": "3Blue1Brown",
+              "minutes": 10.3,
+              "published": "2017-11-03",
+              "why": "The calculus of backpropagation, for when you build it yourself."
+            },
+            {
+              "id": "ORMx45xqWkA",
+              "title": "PyTorch in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 2.7,
+              "published": "2023-03-20",
+              "why": "PyTorch in 100 seconds: what the framework does for you."
+            },
+            {
+              "id": "M0fX15_-xrY",
+              "title": "The Fundamentals of Autograd",
+              "channel": "PyTorch",
+              "minutes": 14.0,
+              "published": "2021-04-16",
+              "why": "Autograd: how PyTorch computes gradients automatically (official PyTorch)."
+            },
+            {
+              "id": "JHWqWIoac2I",
+              "title": "Create a Basic Neural Network Model - Deep Learning with PyTorch 5",
+              "channel": "John Elder",
+              "minutes": 15.7,
+              "published": "2023-06-05",
+              "why": "Building and training a basic neural network model in PyTorch."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "VMj-3S1tku0",
+          "title": "The spelled-out intro to neural networks and backpropagation: building micrograd",
+          "channel": "Andrej Karpathy",
+          "minutes": 145.9,
+          "published": "2022-08-16",
+          "why": "Andrej Karpathy builds backpropagation from scratch (micrograd). The best long watch for week 10."
+        },
+        {
+          "id": "tHL5STNJKag",
+          "title": "Build Your First Pytorch Model In Minutes! [Tutorial + Code]",
+          "channel": "Rob Mulla",
+          "minutes": 31.5,
+          "published": "2023-10-05",
+          "why": "Rob Mulla builds a first PyTorch model end to end, with code."
+        }
+      ]
     }
   ]
 }
