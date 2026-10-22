@@ -1473,6 +1473,351 @@
           "why": "Kubernetes crash course for absolute beginners, hands on."
         }
       ]
+    },
+    {
+      "phase": 6,
+      "title": "Forward-deployed practice",
+      "weeks": [
+        {
+          "week": 29,
+          "topic": "Discovery and decomposition",
+          "videos": [
+            {
+              "id": "KwhgfwOSToQ",
+              "title": "Forward Deployed Engineering 101 — Kevin Bai, Anthropic, ex Palantir & Rippling Founding FDE",
+              "channel": "AI Engineer",
+              "minutes": 17.8,
+              "published": "2026-07-28",
+              "why": "Forward Deployed Engineering 101, from an Anthropic FDE who did the job at Palantir."
+            },
+            {
+              "id": "YbeJxi0Ju1A",
+              "title": "What is a Forward Deployed Engineer (FDE)?",
+              "channel": "Caleb Curry",
+              "minutes": 13.7,
+              "published": "2026-09-03",
+              "why": "What a forward deployed engineer does day to day."
+            },
+            {
+              "id": "vLlIBT0HSSc",
+              "title": "How to Become a Forward Deployed Engineer in 2026",
+              "channel": "Tech With Tim",
+              "minutes": 11.6,
+              "published": "2026-08-14",
+              "why": "How people are becoming FDEs in 2026, and the skills that matter."
+            },
+            {
+              "id": "yCGi1k5DB9s",
+              "title": "Idea discovery, helpful constraints, and common traps of pre-product Mom Test.",
+              "channel": "Rob Fitzpatrick",
+              "minutes": 6.6,
+              "published": "2020-08-05",
+              "why": "Discovery questions that get the truth, from the author of The Mom Test."
+            },
+            {
+              "id": "OkyVirNorAc",
+              "title": "How to build a key stakeholder map | Stakeholder mapping | Lauren Kress",
+              "channel": "Lauren Kress",
+              "minutes": 5.4,
+              "published": "2020-01-08",
+              "why": "Building a stakeholder map: who decides, who influences, who uses it."
+            },
+            {
+              "id": "SeZCRlAN7nY",
+              "title": "HOW TO SOLVE ANY PROBLEM - How do consulting firms work (hypothesis-based problem solving explained)",
+              "channel": "Firm Learning",
+              "minutes": 9.7,
+              "published": "2026-08-16",
+              "why": "Hypothesis-driven problem solving, the way consulting firms find the real problem."
+            }
+          ]
+        },
+        {
+          "week": 30,
+          "topic": "Solution design and ROI",
+          "videos": [
+            {
+              "id": "NUiTBM1U-Lk",
+              "title": "Build or Buy AI? Here's How I Actually Make This Decision",
+              "channel": "Sullivan & Stanley",
+              "minutes": 4.4,
+              "published": "2025-07-31",
+              "why": "Build or buy AI: a practical way to make the call."
+            },
+            {
+              "id": "-CT0u2u7TWQ",
+              "title": "How to Calculate the ROI of an AI Project (Before You Start)",
+              "channel": "Blueprint AI",
+              "minutes": 7.2,
+              "published": "2025-08-05",
+              "why": "Calculating the ROI of an AI project before you start building."
+            },
+            {
+              "id": "vkEPGFVVwfM",
+              "title": "What to Put in Your Risk Register (Risk Log)",
+              "channel": "Online PM Courses - Mike Clayton",
+              "minutes": 11.1,
+              "published": "2020-03-25",
+              "why": "What goes into a risk register, and how to keep it useful."
+            },
+            {
+              "id": "uCmTk06aM70",
+              "title": "5 Consulting Frameworks to Solve Any Problem",
+              "channel": "Analyst Academy",
+              "minutes": 8.4,
+              "published": "2026-04-17",
+              "why": "Five consulting frameworks for structuring any customer problem."
+            }
+          ]
+        },
+        {
+          "week": 31,
+          "topic": "Pre-sales and communication",
+          "videos": [
+            {
+              "id": "aBUniZHgCnE",
+              "title": "Anthropic's Chloe Lubinski explains how AI works (in 14 minutes)",
+              "channel": "Alliance for Responsible Citizenship",
+              "minutes": 14.6,
+              "published": "2026-06-24",
+              "why": "How AI works in fourteen minutes, explained by Anthropic for a general audience."
+            },
+            {
+              "id": "005JLRt3gXI",
+              "title": "Why do AI models hallucinate?",
+              "channel": "Claude",
+              "minutes": 5.2,
+              "published": "2026-04-15",
+              "why": "Why AI models hallucinate, the question every customer asks (official Anthropic)."
+            },
+            {
+              "id": "-3GZNwPwvf8",
+              "title": "How to Present Technical Information to a Non-Technical Audience",
+              "channel": "Chad Littlefield",
+              "minutes": 6.0,
+              "published": "2026-09-09",
+              "why": "Presenting technical work to a non-technical audience."
+            },
+            {
+              "id": "4X7WNKyVwVM",
+              "title": "How To Do A Software Demo | Matt Wolach",
+              "channel": "Matt Wolach",
+              "minutes": 8.6,
+              "published": "2021-06-24",
+              "why": "Running a software demo that answers the customer's questions."
+            },
+            {
+              "id": "-_sTrDwoZyM",
+              "title": "The Secret to Handling Any Sales Objection (They’ll Never See It Coming)",
+              "channel": "The Futur",
+              "minutes": 5.0,
+              "published": "2025-12-11",
+              "why": "Handling objections by understanding them first."
+            }
+          ]
+        },
+        {
+          "week": 32,
+          "topic": "Flagship capstone (weeks 32-33)",
+          "videos": [
+            {
+              "id": "Sh-se-i0afA",
+              "title": "In 7 Minutes, You'll Be 170% Better At Presentations",
+              "channel": "Vinh Giang",
+              "minutes": 6.3,
+              "published": "2026-02-27",
+              "why": "Seven minutes of presentation technique for your capstone talk."
+            },
+            {
+              "id": "yoD8RMq2OkU",
+              "title": "The 3 Magic Ingredients of Amazing Presentations | Phil WAKNELL | TEDxSaclay",
+              "channel": "TEDx Talks",
+              "minutes": 14.6,
+              "published": "2020-01-28",
+              "why": "The three ingredients of a presentation people remember."
+            }
+          ]
+        }
+      ],
+      "optional": []
+    },
+    {
+      "phase": 7,
+      "title": "Getting hired",
+      "weeks": [
+        {
+          "week": 34,
+          "topic": "Portfolio and visibility",
+          "videos": [
+            {
+              "id": "HXZYKyMJ2O4",
+              "title": "Why MOST Developer Portfolios are Worthless",
+              "channel": "Travis Media",
+              "minutes": 12.8,
+              "published": "2024-11-10",
+              "why": "Why most developer portfolios do not work, and what hiring teams look for instead."
+            },
+            {
+              "id": "tr4saJGic4o",
+              "title": "How to Get Hired as a Software Engineer in 2026 (The ONE project rule)",
+              "channel": "Phillip Choi",
+              "minutes": 7.2,
+              "published": "2025-08-17",
+              "why": "The one-project rule: depth beats a long list of tutorials."
+            },
+            {
+              "id": "CML6vfKjQss",
+              "title": "Contributing to Open Source Can Change Your Life - Here’s How to Do It",
+              "channel": "Learn Fast Make Things",
+              "minutes": 3.3,
+              "published": "2022-05-20",
+              "why": "How to make your first open-source contribution."
+            },
+            {
+              "id": "ympjraN3JyI",
+              "title": "understand ANY programming project (from an open source maintainer)",
+              "channel": "bashbunni",
+              "minutes": 3.7,
+              "published": "2025-03-22",
+              "why": "Finding your way around an unfamiliar codebase, from an open-source maintainer."
+            },
+            {
+              "id": "Ef07Hhoc5KE",
+              "title": "How to write technical blog posts - talk by freeCodeCamp creator Quincy Larson",
+              "channel": "freeCodeCamp.org",
+              "minutes": 16.0,
+              "published": "2018-02-16",
+              "why": "Writing technical blog posts people read, from freeCodeCamp's founder."
+            }
+          ]
+        },
+        {
+          "week": 35,
+          "topic": "Interview loop preparation",
+          "videos": [
+            {
+              "id": "qZgErBZk0GY",
+              "title": "Forward Deployed Engineer | Role & Interview Overview",
+              "channel": "Aced (formerly Exponent)",
+              "minutes": 21.7,
+              "published": "2026-06-12",
+              "why": "The FDE role and its interview loop, round by round."
+            },
+            {
+              "id": "IslCQszgr4I",
+              "title": "Palantir Decomposition Interview Process, Interview Questions and Tips",
+              "channel": "Prepfully",
+              "minutes": 5.5,
+              "published": "2023-02-08",
+              "why": "The Palantir decomposition interview: process, questions and tips."
+            },
+            {
+              "id": "0DeNgIJxa_Y",
+              "title": "FDE Mock Interview: Decomposition Round",
+              "channel": "Anantha Subramaniam",
+              "minutes": 7.1,
+              "published": "2026-08-16",
+              "why": "A decomposition round, worked through as a mock interview."
+            },
+            {
+              "id": "-Y6YmuqGLpY",
+              "title": "Forward Deployed Engineer Behavioral Mock Interview (ft. Rippling FDE)",
+              "channel": "Aced (formerly Exponent)",
+              "minutes": 26.0,
+              "published": "2026-08-20",
+              "why": "An FDE behavioral mock interview with a Rippling FDE."
+            },
+            {
+              "id": "UQrTMxouDUY",
+              "title": "STAR Method - How to Ace Your Amazon Interview",
+              "channel": "Inside Amazon",
+              "minutes": 6.0,
+              "published": "2024-01-25",
+              "why": "The STAR method for behavioral answers (official Amazon)."
+            },
+            {
+              "id": "crQap_g9zfA",
+              "title": "Stop Failing ML System Design Interviews — Do This Instead",
+              "channel": "Egor Howell",
+              "minutes": 17.1,
+              "published": "2026-09-18",
+              "why": "How to approach ML system design interviews."
+            }
+          ]
+        },
+        {
+          "week": 36,
+          "topic": "Applications",
+          "videos": [
+            {
+              "id": "N1Fm4JYae1I",
+              "title": "Write a Killer Résumé in the AI Era: 5 New Rules!",
+              "channel": "Jeff Su",
+              "minutes": 13.2,
+              "published": "2026-09-15",
+              "why": "Writing a résumé in the AI era: five new rules."
+            },
+            {
+              "id": "eGmZZFJ-8PY",
+              "title": "Ex-Google Recruiter Explains: 6 Résumé Secrets That Get You Hired",
+              "channel": "Farah Sharghi",
+              "minutes": 9.7,
+              "published": "2025-09-16",
+              "why": "Résumé advice from an ex-Google recruiter."
+            },
+            {
+              "id": "RDjwaXnToes",
+              "title": "Ex-Google Recruiter Explains: 6 LinkedIn Mistakes Keeping You In Your Sh*y Job (You Probably Do It)",
+              "channel": "Farah Sharghi",
+              "minutes": 6.2,
+              "published": "2024-07-23",
+              "why": "LinkedIn mistakes that keep recruiters away."
+            },
+            {
+              "id": "u9BoG1n1948",
+              "title": "Tips for negotiating your salary (from an ex-FAANG recruiter)",
+              "channel": "mayuko",
+              "minutes": 12.2,
+              "published": "2021-03-11",
+              "why": "Negotiating your offer, from an ex-FAANG recruiter."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "knEiqlfpV5k",
+          "title": "Forward Deployed Engineer Interviews at LangChain",
+          "channel": "Aced (formerly Exponent)",
+          "minutes": 23.3,
+          "published": "2026-08-13",
+          "why": "What forward deployed engineer interviews look like at LangChain."
+        },
+        {
+          "id": "TsuYyrpuRcQ",
+          "title": "I Hired Forward Deployed Engineers (FDE): Here Is What They Ask",
+          "channel": "The Cloud Girl",
+          "minutes": 88.7,
+          "published": "2026-09-17",
+          "why": "A hiring manager on what they ask forward deployed engineers."
+        },
+        {
+          "id": "mklEhT_RLos",
+          "title": "Contributing To Open Source – Beginner's Guide",
+          "channel": "freeCodeCamp.org",
+          "minutes": 149.5,
+          "published": "2024-11-04",
+          "why": "A full beginner's guide to contributing to open source."
+        },
+        {
+          "id": "vT5pcc30Ffw",
+          "title": "Technical Writing Course for Beginners",
+          "channel": "freeCodeCamp.org",
+          "minutes": 76.1,
+          "published": "2025-07-29",
+          "why": "A full technical writing course for engineers."
+        }
+      ]
     }
   ]
 }
