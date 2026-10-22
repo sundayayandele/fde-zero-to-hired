@@ -1,0 +1,222 @@
+{
+  "about": "Curated English YouTube videos for each week of the curriculum. Source of truth for the Moodle 'Watch' pages and the GitHub phase pages. Rules: English audio and captions, embeddable, under 30 minutes unless marked optional, 2025-2026 for LLM topics, official channels first. Checked by lms/check_videos.py.",
+  "checked": "2026-10-22",
+  "phases": [
+    {
+      "phase": 0,
+      "title": "Programming and tooling",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Python basics",
+          "videos": [
+            {
+              "id": "x7X9w_GIm1s",
+              "title": "Python in 100 Seconds",
+              "channel": "Fireship",
+              "minutes": 2.4,
+              "published": "2021-10-25",
+              "why": "A two-minute map of what Python is and why it is the language of ML work."
+            },
+            {
+              "id": "DZwmZ8Usvnk",
+              "title": "Python Tutorial for Beginners 6: Conditionals and Booleans - If, Else, and Elif Statements",
+              "channel": "Corey Schafer",
+              "minutes": 16.5,
+              "published": "2017-05-17",
+              "why": "if, elif, else and Boolean logic: the decisions every program makes."
+            },
+            {
+              "id": "9Os0o3wzS_I",
+              "title": "Python Tutorial for Beginners 8: Functions",
+              "channel": "Corey Schafer",
+              "minutes": 21.8,
+              "published": "2017-05-17",
+              "why": "Functions, arguments and return values: how to break a problem into reusable pieces."
+            },
+            {
+              "id": "Uh2ebFW8OYM",
+              "title": "Python Tutorial: File Objects - Reading and Writing to Files",
+              "channel": "Corey Schafer",
+              "minutes": 24.6,
+              "published": "2016-04-29",
+              "why": "Reading and writing files safely with context managers."
+            },
+            {
+              "id": "NIWwJbo-9_8",
+              "title": "Python Tutorial: Using Try/Except Blocks for Error Handling",
+              "channel": "Corey Schafer",
+              "minutes": 10.6,
+              "published": "2015-11-13",
+              "why": "try and except: handling errors instead of crashing."
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "topic": "Python for real work",
+          "videos": [
+            {
+              "id": "ZDa-Z5JzLYM",
+              "title": "Python OOP Tutorial 1: Classes and Instances",
+              "channel": "Corey Schafer",
+              "minutes": 15.4,
+              "published": "2016-06-20",
+              "why": "Classes and instances: the basis of most Python libraries you will use."
+            },
+            {
+              "id": "CqvZ3vGoGs0",
+              "title": "Python Tutorial for Beginners 9: Import Modules and Exploring The Standard Library",
+              "channel": "Corey Schafer",
+              "minutes": 21.9,
+              "published": "2017-05-17",
+              "why": "Importing modules and finding your way around the standard library."
+            },
+            {
+              "id": "AMdG7IjgSPM",
+              "title": "Python Tutorial: UV - A Faster, All-in-One Package Manager to Replace Pip and Venv",
+              "channel": "Corey Schafer",
+              "minutes": 27.0,
+              "published": "2025-04-30",
+              "why": "uv: one fast tool for Python versions, virtual environments and dependencies."
+            },
+            {
+              "id": "fM4O9bModsE",
+              "title": "Python Tutorial: Type Hinting vs Type Checking vs Data Validation - What’s the Difference?",
+              "channel": "Corey Schafer",
+              "minutes": 18.3,
+              "published": "2025-05-29",
+              "why": "Type hints vs type checking vs data validation, and when you need each."
+            },
+            {
+              "id": "mzlH8lp4ISA",
+              "title": "getting started with pytest (beginner - intermediate) anthony explains #518",
+              "channel": "anthonywritescode",
+              "minutes": 13.3,
+              "published": "2023-01-23",
+              "why": "Getting started with pytest, from one of its maintainers."
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "topic": "Developer tooling",
+          "videos": [
+            {
+              "id": "e9lnsKot_SQ",
+              "title": "How Git Works: Explained in 4 Minutes",
+              "channel": "ByteByteGo",
+              "minutes": 4.3,
+              "published": "2023-11-28",
+              "why": "How Git stores your work, in four minutes, so the commands make sense."
+            },
+            {
+              "id": "nCKdihvneS0",
+              "title": "How to create a pull request in 4 min | GitHub for Beginners",
+              "channel": "GitHub",
+              "minutes": 3.7,
+              "published": "2024-08-12",
+              "why": "Opening a pull request, the way every team reviews code (official GitHub)."
+            },
+            {
+              "id": "gd7BXuUQ91w",
+              "title": "60 Linux Commands you NEED to know (in 10 minutes)",
+              "channel": "NetworkChuck",
+              "minutes": 10.8,
+              "published": "2022-11-16",
+              "why": "The Linux commands you will use daily on servers and in containers."
+            },
+            {
+              "id": "D2cwvpJSBX4",
+              "title": "Getting Started with Python in VS Code (Official Video)",
+              "channel": "Visual Studio Code",
+              "minutes": 10.3,
+              "published": "2024-08-12",
+              "why": "Setting up VS Code for Python (official Visual Studio Code)."
+            },
+            {
+              "id": "rIrNIzy6U_g",
+              "title": "100+ Docker Concepts you Need to Know",
+              "channel": "Fireship",
+              "minutes": 8.5,
+              "published": "2024-03-12",
+              "why": "The Docker ideas you need: images, containers, volumes, networks, Compose."
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "topic": "Data handling",
+          "videos": [
+            {
+              "id": "9N6a-VLBa2I",
+              "title": "Python Tutorial: Working with JSON Data using the json Module",
+              "channel": "Corey Schafer",
+              "minutes": 20.6,
+              "published": "2017-11-20",
+              "why": "Reading and writing JSON, the format every API speaks."
+            },
+            {
+              "id": "kbKty5ZVKMY",
+              "title": "Learn Basic SQL in 15 Minutes | Business Intelligence For Beginners | SQL Tutorial For Beginners 1/3",
+              "channel": "Adam Finer - Learn BI",
+              "minutes": 17.6,
+              "published": "2020-11-11",
+              "why": "SELECT, WHERE and ORDER BY: the SQL you need in fifteen minutes."
+            },
+            {
+              "id": "9yeOJ0ZMUYw",
+              "title": "SQL Joins Explained  |¦| Joins in SQL |¦| SQL Tutorial",
+              "channel": "Socratica",
+              "minutes": 10.4,
+              "published": "2019-03-25",
+              "why": "How SQL joins combine tables."
+            },
+            {
+              "id": "x2_mOJ3skSc",
+              "title": "SQL Group By: An Explanation and How To Use It",
+              "channel": "Database Star",
+              "minutes": 5.1,
+              "published": "2021-10-25",
+              "why": "GROUP BY and aggregates: turning rows into summaries."
+            },
+            {
+              "id": "DkjCaAMBGWM",
+              "title": "Learning Pandas for Data Analysis? Start Here.",
+              "channel": "Rob Mulla",
+              "minutes": 22.8,
+              "published": "2023-08-31",
+              "why": "pandas for loading, cleaning and exploring tabular data."
+            },
+            {
+              "id": "qAh5dDODJ5k",
+              "title": "HTTPX Tutorial - A next-generation HTTP client for Python",
+              "channel": "Patrick Loeber",
+              "minutes": 11.0,
+              "published": "2022-07-28",
+              "why": "Calling REST APIs from Python with httpx."
+            }
+          ]
+        }
+      ],
+      "optional": [
+        {
+          "id": "nLRL_NcnK-4",
+          "title": "Harvard CS50’s Introduction to Programming with Python – Full University Course",
+          "channel": "freeCodeCamp.org",
+          "minutes": 957.8,
+          "published": "2023-05-01",
+          "why": "Harvard CS50P, the full course behind this phase. Long: use it for any week you want more depth."
+        },
+        {
+          "id": "MSgoeuMqUmU",
+          "title": "Lecture 1: Course Overview + Introduction to the Shell",
+          "channel": "Missing Semester",
+          "minutes": 74.7,
+          "published": "2026-01-18",
+          "why": "MIT Missing Semester, lecture 1: the shell and the tools courses usually skip."
+        }
+      ]
+    }
+  ]
+}
