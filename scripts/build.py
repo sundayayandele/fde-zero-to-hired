@@ -2,7 +2,8 @@
 """Regenerate phases/, capstones/ and docs/ from CURRICULUM.md.
 
 CURRICULUM.md is the single source of truth. Every file this script writes
-starts with a GENERATED banner; never edit those files by hand.
+starts with a GENERATED banner; never edit those files by hand. The "Watch"
+section of each phase page comes from lms/videos.json.
 
 Usage:
     python scripts/build.py           # rewrite generated files
@@ -11,12 +12,14 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCE = ROOT / "CURRICULUM.md"
+VIDEOS = ROOT / "lms" / "videos.json"
 BANNER = (
     "<!-- GENERATED from CURRICULUM.md by scripts/build.py. "
     "Do not edit by hand: edit CURRICULUM.md, then run `python scripts/build.py`. -->\n\n"
@@ -133,9 +136,31 @@ def nav(prev: tuple[str, str] | None, nxt: tuple[str, str] | None) -> str:
     return " · ".join(parts)
 
 
-def render(text: str) -> dict[Path, str]:
+def watch_section(phase: dict | None) -> list[str]:
+    """Markdown lines for a phase's curated videos (empty if none)."""
+    if not phase or not any(w["videos"] for w in phase["weeks"]):
+        return []
+
+    def line(v: dict) -> str:
+        mins = v["minutes"]
+        length = f"{int(mins / 6 + 0.5) / 10} h" if mins >= 90 else f"{int(mins + 0.5)} min"  # same rounding as Moodle
+        return f"- [{v['title']}](https://www.youtube.com/watch?v={v['id']}) · {v['channel']} · {length}. {v['why']}"
+
+    out = ["", "## Watch", "",
+           "Optional short videos for each week, all in English with English captions. "
+           "Moodle learners get them embedded on a Watch page per week."]
+    for w in phase["weeks"]:
+        if w["videos"]:
+            out += ["", f"### Week {w['week']}: {w['topic']}", ""] + [line(v) for v in w["videos"]]
+    if phase.get("optional"):
+        out += ["", "### Want more depth? (longer, optional)", ""] + [line(v) for v in phase["optional"]]
+    return out
+
+
+def render(text: str, videos: dict | None = None) -> dict[Path, str]:
     """Return {relative path: content} for every generated file."""
     h2 = sections(text, 2)
+    video_phases = {p["phase"]: p for p in (videos or {}).get("phases", [])}
     files: dict[Path, str] = {}
 
     # ---- Phases ---------------------------------------------------------
@@ -173,6 +198,7 @@ def render(text: str) -> dict[Path, str]:
                         "Read the brief before week 1 of the phase so you build towards it."]
             else:
                 out += ["", f"## {sub_heading}", "", sub_body]
+        out += watch_section(video_phases.get(p["num"]))
         out += ["", "---", "", nav(prev, nxt), ""]
         files[Path("phases") / p["slug"] / "README.md"] = BANNER + "\n".join(out)
 
@@ -224,7 +250,8 @@ def main() -> int:
     args = parser.parse_args()
 
     try:
-        files = render(SOURCE.read_text(encoding="utf-8"))
+        videos = json.loads(VIDEOS.read_text(encoding="utf-8")) if VIDEOS.exists() else None
+        files = render(SOURCE.read_text(encoding="utf-8"), videos)
     except BuildError as e:
         print(f"build: {e}", file=sys.stderr)
         return 1

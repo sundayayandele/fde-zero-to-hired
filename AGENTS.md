@@ -19,6 +19,7 @@ The repo is **content, not software**. The scripts exist only to keep the conten
 | `README.md`, `CONTRIBUTING.md`, `CHANGELOG.md`, `templates/`, `tools/README.md` | Edit directly | Hand-written |
 | `tools/FDE_Skills_Matrix_90_Day_Plan.xlsx` | Edit with care | Formula-driven; keep formulas, don't paste values over them |
 | `assets/roadmap.png` | Replace only if phases or weeks change | Must match the phase table in CURRICULUM.md |
+| `lms/videos.json` | Edit directly | Curated weekly videos. Feeds the Watch section of each phase page (run the build) and the Moodle Watch pages. Check with `python lms/check_videos.py` before committing |
 
 Never edit a generated file by hand. Change `CURRICULUM.md`, then run the build.
 

@@ -29,6 +29,12 @@ jobs:
           echo "exit=$?" >> "$GITHUB_OUTPUT"
           cat link-report.txt
 
+      - name: Check curated videos
+        run: |
+          set +e
+          python lms/check_videos.py --quick > video-report.txt 2>&1
+          cat video-report.txt
+
       - name: Open the monthly refresh issue
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -44,6 +50,7 @@ jobs:
             echo "- [ ] Market table refreshed with verified postings"
             echo "- [ ] Dead links fixed (see report below)"
             echo "- [ ] Resources and tool names checked"
+            echo "- [ ] Videos: replace any flagged below in lms/videos.json and the Moodle Watch pages"
             echo "- [ ] CHANGELOG.md updated, version chosen"
             echo "- [ ] Committed and pushed from GitHub Desktop"
             echo
@@ -51,6 +58,12 @@ jobs:
             echo
             echo '```'
             tail -n 60 link-report.txt
+            echo '```'
+            echo
+            echo "## Video report"
+            echo
+            echo '```'
+            tail -n 40 video-report.txt
             echo '```'
           } > body.md
           gh label create maintenance --color 0E8A16 --description "Repo upkeep" 2>/dev/null || true

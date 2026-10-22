@@ -30,8 +30,10 @@ def main() -> int:
             return 0  # already blocked once this turn; don't loop
 
     problems = []
-    for script, args in (("build.py", ["--check"]), ("check_links.py", [])):
-        result = subprocess.run([sys.executable, str(ROOT / "scripts" / script), *args],
+    checks = (("scripts/build.py", ["--check"]), ("scripts/check_links.py", []),
+              ("lms/check_videos.py", ["--schema"]))
+    for script, args in checks:
+        result = subprocess.run([sys.executable, str(ROOT / script), *args],
                                 capture_output=True, text=True, cwd=ROOT)
         if result.returncode != 0:
             problems.append(f"[{script}]\n{result.stderr.strip() or result.stdout.strip()}")
