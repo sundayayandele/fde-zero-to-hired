@@ -28,7 +28,7 @@ Built during [Phase 5: Inference, deployment and sovereign AI](../../phases/05-i
 
 1. Publish your capstone in its own public repo, using the [capstone README template](../../templates/capstone-README.md).
 2. Score it against the [rubric](../../docs/rubric.md): pass at 14/20 with no criterion below 2.
-3. Open a **Capstone submission** issue in your fork of this repo with the links.
+3. **On [itlearning.tech](https://itlearning.tech):** submit the links in the course's *Capstone submission* assignment, then send the administrator a message asking for your check. **Studying on your own:** open a **Capstone submission** issue in your fork of this repo with the links.
 
 ---
 

@@ -73,6 +73,8 @@ Edit `CURRICULUM.md`, then run `python scripts/build.py` and `python scripts/che
 
 ## Track your progress
 
+> **Learning on [itlearning.tech](https://itlearning.tech)?** Submit your exit checks and capstones in the course there, ask questions in its *Questions and help* forum, and earn the free Phases 0–3 certificate. The issue tracking below is for studying on your own.
+
 1. Click **Use this template → Create a new repository** at the top of this page. Make it public if you want recruiters to see your progress.
 2. In your new repo, go to **Issues → Labels → New label** and create these two labels. Templates don't copy labels, so you need to add them once:
 
