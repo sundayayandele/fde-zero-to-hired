@@ -17,7 +17,7 @@ Built during [Phase 2: LLM application engineering](../../phases/02-llm-applicat
 
 **Definition of done:** a public repo, a 2-minute demo video, and a README with an architecture diagram and known failure cases.
 
-**Worked example:** [fde-02-llm-applications](https://github.com/sundayayandele/fde-02-llm-applications) builds this capstone over public company filings. Use it to check your scope, not as your submission.
+**Worked example:** `fde-02-llm-applications` builds this capstone over public company filings. It's a download on [itlearning.tech](https://itlearning.tech) after this capstone is passed, so plan your scope from this brief and the rubric.
 
 **Proves:** RAG, agents, MCP, API and front-end delivery. These match requirements in the Anthropic, Cohere, Databricks and Mistral postings.
 

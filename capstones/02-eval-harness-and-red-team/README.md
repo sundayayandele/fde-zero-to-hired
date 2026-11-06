@@ -17,7 +17,7 @@ Built during [Phase 3: Evaluation and reliability](../../phases/03-evaluation-an
 
 **Definition of done:** a results table in the README, a dashboard screenshot, and a one-page "release readiness" memo written for a non-technical risk owner.
 
-**Worked example:** [fde-03-evaluation](https://github.com/sundayayandele/fde-03-evaluation) builds this capstone against the fde-02 document assistant. Use it to check your scope, not as your submission.
+**Worked example:** `fde-03-evaluation` builds this capstone against the fde-02 document assistant. It's a download on [itlearning.tech](https://itlearning.tech) after this capstone is passed, so plan your scope from this brief and the rubric.
 
 **Proves:** the evaluation depth named in the Anthropic, Databricks, DeepMind and Reflection postings, and the strongest single answer in an FDE interview.
 

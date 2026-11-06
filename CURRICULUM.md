@@ -74,7 +74,7 @@ The goal is to write clean, tested Python, ship a small web API to the cloud, an
 
 **Resources:** Harvard CS50P (Python), *The Missing Semester* (MIT, shell and Git), SQLBolt.
 
-**Code:** start with [fde-00-programming-starter](https://github.com/sundayayandele/fde-00-programming-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-00-programming](https://github.com/sundayayandele/fde-00-programming), is a tested complaint-ingestion pipeline and CLI over the US CFPB complaints data, with SQLite, Postgres and a report API. Open it only after you have tried each exercise.
+**Code:** start with [fde-00-programming-starter](https://github.com/sundayayandele/fde-00-programming-starter) and complete the exercises in `labs/` week by week. The reference solution, `fde-00-programming`, is a tested complaint-ingestion pipeline and CLI over the US CFPB complaints data, with SQLite, Postgres and a report API. It's a download in the course on [itlearning.tech](https://itlearning.tech), unlocked once you have passed this phase's exit check or capstone.
 
 **Exit check:** a public GitHub repo with a tested command-line tool that pulls data from a public API, stores it in SQLite and prints a report. CI runs the tests on every push.
 
@@ -91,7 +91,7 @@ The goal is to write clean, tested Python, ship a small web API to the cloud, an
 
 **Resources:** FastAPI official tutorial; 3Blue1Brown *Essence of Linear Algebra* and *Neural Networks*; Andrej Karpathy *Neural Networks: Zero to Hero* (first videos); fast.ai *Practical Deep Learning for Coders*.
 
-**Code:** start with [fde-01-foundations-starter](https://github.com/sundayayandele/fde-01-foundations-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-01-foundations](https://github.com/sundayayandele/fde-01-foundations), is a complaint-routing classifier that compares scikit-learn, PyTorch and DistilBERT and sends uncertain cases to a person. Open it only after you have tried each exercise.
+**Code:** start with [fde-01-foundations-starter](https://github.com/sundayayandele/fde-01-foundations-starter) and complete the exercises in `labs/` week by week. The reference solution, `fde-01-foundations`, is a complaint-routing classifier that compares scikit-learn, PyTorch and DistilBERT and sends uncertain cases to a person. It's a download in the course on [itlearning.tech](https://itlearning.tech), unlocked once you have passed this phase's exit check or capstone.
 
 **Exit check:** a deployed FastAPI service with a small UI that serves a scikit-learn or PyTorch model, plus a README explaining the metric you chose and why. If you can already do this, skip to Phase 2.
 
@@ -109,7 +109,7 @@ The goal is to build retrieval and agent systems on hosted model APIs that hold 
 
 **Resources:** provider docs (Mistral, OpenAI, Anthropic cookbooks); Hugging Face LLM Course; the MCP specification and SDK examples; LangGraph tutorials.
 
-**Code:** start with [fde-02-llm-applications-starter](https://github.com/sundayayandele/fde-02-llm-applications-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-02-llm-applications](https://github.com/sundayayandele/fde-02-llm-applications), is a cited document assistant over company filings with hybrid retrieval, refusals, streaming and an MCP server. Open it only after you have tried each exercise.
+**Code:** start with [fde-02-llm-applications-starter](https://github.com/sundayayandele/fde-02-llm-applications-starter) and complete the exercises in `labs/` week by week. The reference solution, `fde-02-llm-applications`, is a cited document assistant over company filings with hybrid retrieval, refusals, streaming and an MCP server. It's a download in the course on [itlearning.tech](https://itlearning.tech), unlocked once you have passed this phase's exit check or capstone.
 
 ### Capstone 1: Enterprise document assistant
 
@@ -124,7 +124,7 @@ The goal is to build retrieval and agent systems on hosted model APIs that hold 
 
 **Definition of done:** a public repo, a 2-minute demo video, and a README with an architecture diagram and known failure cases.
 
-**Worked example:** [fde-02-llm-applications](https://github.com/sundayayandele/fde-02-llm-applications) builds this capstone over public company filings. Use it to check your scope, not as your submission.
+**Worked example:** `fde-02-llm-applications` builds this capstone over public company filings. It's a download on [itlearning.tech](https://itlearning.tech) after this capstone is passed, so plan your scope from this brief and the rubric.
 
 **Proves:** RAG, agents, MCP, API and front-end delivery. These match requirements in the Anthropic, Cohere, Databricks and Mistral postings.
 
@@ -140,7 +140,7 @@ The goal is to prove with numbers whether an LLM system works, and to catch regr
 
 **Resources:** Hamel Husain's writing on LLM evals; RAGAS and DeepEval docs; OWASP Top 10 for LLM Applications.
 
-**Code:** start with [fde-03-evaluation-starter](https://github.com/sundayayandele/fde-03-evaluation-starter) and complete the exercises in `labs/` week by week. The reference solution, [fde-03-evaluation](https://github.com/sundayayandele/fde-03-evaluation), is an evaluation harness with golden sets, a calibrated judge, a red team and a CI release gate. Open it only after you have tried each exercise.
+**Code:** start with [fde-03-evaluation-starter](https://github.com/sundayayandele/fde-03-evaluation-starter) and complete the exercises in `labs/` week by week. The reference solution, `fde-03-evaluation`, is an evaluation harness with golden sets, a calibrated judge, a red team and a CI release gate. It's a download in the course on [itlearning.tech](https://itlearning.tech), unlocked once you have passed this phase's exit check or capstone.
 
 ### Capstone 2: Eval harness and red-team report for Capstone 1
 
@@ -155,7 +155,7 @@ The goal is to prove with numbers whether an LLM system works, and to catch regr
 
 **Definition of done:** a results table in the README, a dashboard screenshot, and a one-page "release readiness" memo written for a non-technical risk owner.
 
-**Worked example:** [fde-03-evaluation](https://github.com/sundayayandele/fde-03-evaluation) builds this capstone against the fde-02 document assistant. Use it to check your scope, not as your submission.
+**Worked example:** `fde-03-evaluation` builds this capstone against the fde-02 document assistant. It's a download on [itlearning.tech](https://itlearning.tech) after this capstone is passed, so plan your scope from this brief and the rubric.
 
 **Proves:** the evaluation depth named in the Anthropic, Databricks, DeepMind and Reflection postings, and the strongest single answer in an FDE interview.
 

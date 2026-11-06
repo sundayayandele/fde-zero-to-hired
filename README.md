@@ -33,14 +33,14 @@ Rate yourself first with the [skills matrix and 90-day plan](tools/FDE_Skills_Ma
 
 ## Code repos
 
-Phases 0–3 each have two code repos. Start from the **starter**: click **Use this template**, then complete the exercises in `labs/` until `make exercises` is green. The **reference** solution shows one finished version; open it only after you have tried each exercise.
+Phases 0–3 each have two code repos. Start from the **starter**: click **Use this template**, then complete the exercises in `labs/` until `make exercises` is green. The **reference** solution shows one finished version. It isn't on GitHub: learners download it from the course on [itlearning.tech](https://itlearning.tech) once they have passed that phase's exit check or capstone and posted their weekly check-ins.
 
-| Phase | Starter (start here) | Reference solution | What you build |
+| Phase | Starter (start here) | Reference solution (on itlearning.tech) | What you build |
 | --- | --- | --- | --- |
-| 0 | [fde-00-programming-starter](https://github.com/sundayayandele/fde-00-programming-starter) | [fde-00-programming](https://github.com/sundayayandele/fde-00-programming) | Tested ingestion pipeline and CLI for US CFPB consumer complaints |
-| 1 | [fde-01-foundations-starter](https://github.com/sundayayandele/fde-01-foundations-starter) | [fde-01-foundations](https://github.com/sundayayandele/fde-01-foundations) | Complaint-routing classifier (scikit-learn, PyTorch, DistilBERT) that routes uncertain cases to a person |
-| 2 · Capstone 1 | [fde-02-llm-applications-starter](https://github.com/sundayayandele/fde-02-llm-applications-starter) | [fde-02-llm-applications](https://github.com/sundayayandele/fde-02-llm-applications) | Cited document assistant over company filings, with an MCP server |
-| 3 · Capstone 2 | [fde-03-evaluation-starter](https://github.com/sundayayandele/fde-03-evaluation-starter) | [fde-03-evaluation](https://github.com/sundayayandele/fde-03-evaluation) | Evaluation harness, calibrated judge, red team and CI release gate |
+| 0 | [fde-00-programming-starter](https://github.com/sundayayandele/fde-00-programming-starter) | `fde-00-programming` | Tested ingestion pipeline and CLI for US CFPB consumer complaints |
+| 1 | [fde-01-foundations-starter](https://github.com/sundayayandele/fde-01-foundations-starter) | `fde-01-foundations` | Complaint-routing classifier (scikit-learn, PyTorch, DistilBERT) that routes uncertain cases to a person |
+| 2 · Capstone 1 | [fde-02-llm-applications-starter](https://github.com/sundayayandele/fde-02-llm-applications-starter) | `fde-02-llm-applications` | Cited document assistant over company filings, with an MCP server |
+| 3 · Capstone 2 | [fde-03-evaluation-starter](https://github.com/sundayayandele/fde-03-evaluation-starter) | `fde-03-evaluation` | Evaluation harness, calibrated judge, red team and CI release gate |
 
 All of them are built from [fde-template](https://github.com/sundayayandele/fde-template), which you can use for your own capstone repos. Code repos for Phases 4–7 are in progress.
 

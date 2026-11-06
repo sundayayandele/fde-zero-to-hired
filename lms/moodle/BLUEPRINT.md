@@ -35,7 +35,7 @@ All links use `https://github.com/sundayayandele/` as the base.
 | Skills matrix | `fde-zero-to-hired/raw/main/tools/FDE_Skills_Matrix_90_Day_Plan.xlsx` |
 | Starter (Phases 0 to 3) | `fde-0N-<name>-starter` |
 | Codespaces for the starter | `https://codespaces.new/sundayayandele/fde-0N-<name>-starter?quickstart=1` |
-| Reference solution | `fde-0N-<name>` |
+| Reference solution | Not a link: a zip in the course (the reference repos are private) |
 
 Phase slugs: `00-programming-and-tooling`, `01-swe-and-ml-foundations`, `02-llm-application-engineering`, `03-evaluation-and-reliability`, `04-model-customization`, `05-inference-and-sovereign-ai`, `06-forward-deployed-practice`, `07-getting-hired`.
 
@@ -78,7 +78,7 @@ Same pattern for both. N = 0 or 1, W = weeks in the phase (4 and 6).
 | Open the starter in Codespaces | URL | Codespaces link | none |
 | Weekly check-ins | Forum (standard, general use) | Prompt: done this week, evidence link, stuck on, next week | P*W* |
 | Phase N exit check | Assignment | Online text: repo URL, CI link, one paragraph on what you learned. Grade type: Scale "Not yet / Competent". Additional attempts: manually | S + G |
-| Reference solution | URL | Reference repo. **Restrict access:** activity completion of this phase's "Weekly check-ins" forum (every week posted). Moodle has no "submitted but not yet graded" condition, so the check-ins are the proof of effort | V |
+| Reference solution: fde-0N-<name> (download) | File | The reference repo as a zip (`git archive`), loaded by `scripts/moodle/fde/fde_reference_solutions.php` in the course-site repo. **Restrict access:** this phase's "Weekly check-ins" forum complete (every week posted) **and** the phase's exit check or capstone passed, so the solution can't be used to pass it | V |
 
 ### Sections 3 to 7: Phases 2 to 6 (each ends in a capstone)
 
@@ -95,7 +95,7 @@ Activities in each:
 | Activity | Type | Settings | Completion |
 | --- | --- | --- | --- |
 | Phase N: weekly plan and resources | URL | Phase N page | V |
-| Start the lab / Codespaces / Reference solution | URL ×3 | Phases 2 and 3 only, as in Phases 0 and 1, including the same restriction on the reference solution | V / none / V |
+| Start the lab / Codespaces / Reference solution | URL ×2, File | Phases 2 and 3 only, as in Phases 0 and 1, including the same restriction on the reference solution (passing Capstone 1 or 2) | V / none / V |
 | Weekly check-ins | Forum | As above | P*W* |
 | Capstone N brief | URL | Capstone N brief | V |
 | **Capstone N submission** | Assignment | See section 4 | **P** |
